@@ -94,3 +94,35 @@
   text-decoration-line: underline;
   color: #f46b5b;
 }
+/* ____________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________ */
+
+.carousel-inner {
+  /* height: 480px; */
+  border-radius: 32px;
+}
+#first_slide_label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+#second_slide_label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+#third_slide_label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
