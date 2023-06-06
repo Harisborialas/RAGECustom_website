@@ -28,45 +28,57 @@ const Carousel = () => {
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img
-                    src="/pics_svgs/background.svg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
                   <div class="carousel-caption">
-                    <h5 id="first_slide_label">First slide label</h5>
-                    <p>
-                      Some representative placeholder content for the first
-                      slide.
-                    </p>
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-12">
+                          <h5 id="first_slide_label">
+                            Better Devices for Better Life
+                          </h5>
+                          <p className="para_carousel">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor.
+                          </p>
+                          <button className="shopnow">Shop Now</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="/pics_svgs/background.svg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <div class="carousel-caption ">
-                    <h5 id="second_slide_label">Second slide label</h5>
-                    <p>
-                      Some representative placeholder content for the second
-                      slide.
-                    </p>
+                  <div class="carousel-caption">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-12">
+                          <h5 id="first_slide_label">
+                            Better Devices for Better Life
+                          </h5>
+                          <p className="para_carousel">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor.
+                          </p>
+                          <button className="shopnow">Shop Now</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="/pics_svgs/background.svg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <div class="carousel-caption ">
-                    <h5 id="third_slide_label">Third slide label</h5>
-                    <p>
-                      Some representative placeholder content for the third
-                      slide.
-                    </p>
+                  <div class="carousel-caption">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-12">
+                          <h5 id="first_slide_label">
+                            Better Devices for Better Life
+                          </h5>
+                          <p className="para_carousel">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor.
+                          </p>
+                          <button className="shopnow">Shop Now</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
