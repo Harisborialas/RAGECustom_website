@@ -3,33 +3,33 @@ import React from "react";
 const ThirdNav = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
-              <a class="nav-link mx-3" href="#">
+              <a className="nav-link mx-3" href="#">
                 About
               </a>
-              <a class="nav-link " href="#">
+              <a className="nav-link " href="#">
                 Product
               </a>
-              <a class="nav-link mx-3" href="#">
+              <a className="nav-link mx-3" href="#">
                 Blog
               </a>
-              <a class="nav-link " href="#">
+              <a className="nav-link " href="#">
                 Contact
               </a>
             </div>

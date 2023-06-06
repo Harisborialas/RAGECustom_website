@@ -3,10 +3,10 @@ import { FaSearch } from "react-icons/fa";
 const SecNav = () => {
   return (
     <>
-      <div class="container-fluid mt-4">
+      <div className="container-fluid mt-4">
         <div className="row">
           <div className="col-lg-2 col-md-2 col-sm-4">
-            <a class="navbar-brand" href="#">
+            <a className="navbar-brand" href="#">
               Tronix
             </a>
           </div>
@@ -14,7 +14,7 @@ const SecNav = () => {
             <div className="sec_nav_icon_1">
               <img src="/pics_svgs/Dashboard.svg" alt="" />
             </div>
-            <form class="form_searchbar" role="search">
+            <form className="form_searchbar" role="search">
               <div className="input-group">
                 <input
                   className="form-control"
