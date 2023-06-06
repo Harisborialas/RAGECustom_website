@@ -87,9 +87,7 @@ const Carousel = () => {
                 type="button"
                 data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"></span>
+                <img src="/pics_svgs/arrow-left.svg" alt="" />
                 <span className="visually-hidden">Previous</span>
               </button>
               <button
@@ -97,9 +95,7 @@ const Carousel = () => {
                 type="button"
                 data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"></span>
+                <img src="/pics_svgs/arrow-right.svg" alt="" />
                 <span className="visually-hidden">Next</span>
               </button>
             </div>

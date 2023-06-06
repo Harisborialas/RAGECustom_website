@@ -2,7 +2,8 @@ import React from 'react'
 import Carousel from './carousel/Carousel'
 import Tags from './tags/Tags'
 import Newarrival from './new_arival/Newarival'
-import Products from './products/Products'
+import FeaturedProducts from './fearuredproducts/FeaturedProducts'
+import OurCollection from './ourCollections/OurCollection'
 
 const MidContent = () => {
   return (
@@ -10,6 +11,8 @@ const MidContent = () => {
       <Carousel/>
       <Tags/>
       <Newarrival/>
+      <FeaturedProducts/>
+      <OurCollection/>
     </>
   )
 }
