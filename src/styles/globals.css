@@ -246,7 +246,11 @@ ________________________________________________________________________________
   line-height: 68px;
   color: #383838;
 }
-
+.new-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 .new_arrival_paragraph_text {
   font-family: "Poppins";
   font-style: normal;
@@ -438,4 +442,76 @@ ________________________________________________________________________________
   line-height: 27px;
   text-align: center;
   color: #383838;
+}
+/* ______________________________________________________________________________________________________________________________________-
+_________________________________________________________Blog CSS_____________________________________________________________________________-
+______________________________________________________________________________________________________________________________________- */
+
+#blog-heading-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #383838;
+}
+
+.blog-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.blog-admin-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+}
+
+.admin-text-span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f46b5b;
+}
+/* ___________________________________________________________________________________________________________________________-
+______________________________________________________News Letter_____________________________________________________________________-
+___________________________________________________________________________________________________________________________- */
+
+.newsletter-text{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+color: #FAFAFA;
+
+}
+
+.newsletter-text-paragraph{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #A7A7A7;
+}
+
+.newsletter-btn{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FAFAFA;
+  background: #F46B5B;
+border-radius: 16px;
 }

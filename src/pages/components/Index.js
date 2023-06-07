@@ -1,3 +1,4 @@
+import Newsletter from "./footer/newsLetter/Newsletter";
 import MidContent from "./mid_content/MidContent";
 import Navbar from "./navbar/Navbar";
 
@@ -6,6 +7,7 @@ const Index = () => {
     <>
       <Navbar />
      <MidContent/>
+     <Newsletter/>
     </>
   );
 };

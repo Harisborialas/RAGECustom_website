@@ -4,6 +4,8 @@ import Tags from './tags/Tags'
 import Newarrival from './new_arival/Newarival'
 import FeaturedProducts from './fearuredproducts/FeaturedProducts'
 import OurCollection from './ourCollections/OurCollection'
+import Blog from './blog/Blog'
+import Newsletter from '../footer/newsLetter/Newsletter'
 
 const MidContent = () => {
   return (
@@ -13,6 +15,7 @@ const MidContent = () => {
       <Newarrival/>
       <FeaturedProducts/>
       <OurCollection/>
+      <Blog/>
     </>
   )
 }
