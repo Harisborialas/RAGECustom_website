@@ -545,6 +545,159 @@ ________________________________________________________________________________
   line-height: 68px;
   color: #383838;
 }
-.progress-bar{
+.progress-bar {
   background-color: #f46b5b;
+}
+
+/* _____________________________________________- */
+.flip-card {
+  background-color: transparent;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  border: 1px solid rgb(130, 130, 130);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 0 0px 20px 20px;
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  background: #f46b5b;
+  border-radius: 32px;
+  border: none;
+  transform: rotateY(180deg);
+}
+.cardBack {
+  height: 444px;
+}
+/* ________________________________________________________________________________________________________________________________-
+______________________________________________________Brand Names__________________________________________________________________________-
+________________________________________________________________________________________________________________________________- */
+
+.client-img {
+  opacity: 0.5;
+}
+
+/* ___________________________________________________________________________________________________________________________-
+______________________________________________________Top Rated Products_____________________________________________________________________-
+___________________________________________________________________________________________________________________________- */
+.Top-rated-products-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #383838;
+}
+
+.row-container {
+  width: 100%;
+  overflow: auto;
+}
+
+#rowtopprocuts {
+  flex-wrap: nowrap;
+}
+.rounded-card {
+  border-radius: 32px;
+  border: 1px solid #a7a7a7;
+}
+
+.top-products-img {
+  padding: 20px;
+  border-radius: 12%;
+}
+
+.product-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #383838;
+}
+
+.product-price-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f46b5b;
+}
+
+/* ___________________________________________________________________________________________________________________________-
+______________________________________________________Rating_____________________________________________________________________-
+___________________________________________________________________________________________________________________________- */
+
+.rating-product-value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #a7a7a7;
+}
+
+/* ___________________________________________________________________________________________________________________________-
+______________________________________________________Add to Cart_____________________________________________________________________-
+___________________________________________________________________________________________________________________________- */
+
+.btn-no-border {
+  border: none;
+}
+.add-to-cart-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px;
+  color: #fafafa;
+}
+/* ___________________________________________________________________________________________________________________________-
+______________________________________________________FOOTER_____________________________________________________________________-
+___________________________________________________________________________________________________________________________- */
+
+.footer {
+  background: rgba(244, 107, 91, 0.05);
+}
+.footer-heading-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #383838;
+}
+.footer-paragraph-text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #383838;
+opacity: 0.8;
 }

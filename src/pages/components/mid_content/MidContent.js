@@ -7,6 +7,7 @@ import OurCollection from './ourCollections/OurCollection'
 import Blog from './blog/Blog'
 import Newsletter from '../footer/newsLetter/Newsletter'
 import FlashSale from './flashSale/FlashSale'
+import Topproducts from './topRatedProducts/TopProducts'
 
 const MidContent = () => {
   return (
@@ -17,6 +18,7 @@ const MidContent = () => {
       <FeaturedProducts/>
       <OurCollection/>
       <FlashSale/>
+      <Topproducts/>
       <Blog/>
     </>
   )
