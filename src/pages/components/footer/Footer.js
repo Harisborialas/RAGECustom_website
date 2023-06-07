@@ -1,8 +1,12 @@
 import React from "react";
+import Client from "./brands/Clients";
+import Newsletter from "./newsLetter/Newsletter";
 
 const Footer = () => {
   return (
     <>
+    <Client/>
+    <Newsletter/>
       <footer className="footer">
         <div className="container">
           <div className="row py-4 mt-5">

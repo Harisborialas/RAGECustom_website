@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 const SecNav = () => {
@@ -6,9 +7,9 @@ const SecNav = () => {
       <div className="container-fluid mt-4">
         <div className="row">
           <div className="col-lg-2 col-md-2 col-sm-4">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" href="/">
               Tronix
-            </a>
+            </Link>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-8 mt-2 d-flex">
             <div className="sec_nav_icon_1">

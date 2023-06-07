@@ -47,24 +47,26 @@ const FlashSale = () => {
                 </div>
                 <div class="flip-card-back">
                   <div className="card-body cardBack">
-                    <h3 className="card-title text-center text-white mt-2 cardFlashTitle">
+                    <h3 className="card-title text-center text-white mt-4 cardFlashTitle">
                       Up to 30% Off!
                     </h3>
-                    <div className="row d-flex justify-content-center mt-4 mb-3">
-                    <div className="col-12">
-                        <h2 className="text-white">Sale End In:</h2>
-                    </div>
-                      <div className="col-3 me-3 time ">
-                        <h3 className="text-white">2</h3>
-                        <p className="text-white">Hrs</p>
+                    <div className="row d-flex justify-content-center mt-4 mb-3 fleshtime">
+                      <div className="col-12">
+                        <h2 className="text-white cardFlashTitlesale">
+                          Sale End In:
+                        </h2>
                       </div>
                       <div className="col-3 me-3 time ">
-                        <h3 className="text-white">16</h3>
-                        <p className="text-white">Min</p>
+                        <h3 className="text-white fontsizedigit">2</h3>
+                        <p className="text-white fontsizetime">Hrs</p>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">16</h3>
+                        <p className="text-white fontsizetime">Min</p>
                       </div>
                       <div className="col-3 time">
-                        <h3 className="text-white">27</h3>
-                        <p className="text-white">Sec</p>
+                        <h3 className="text-white fontsizedigit">27</h3>
+                        <p className="text-white fontsizetime">Sec</p>
                       </div>
                     </div>
                   </div>
@@ -108,14 +110,29 @@ const FlashSale = () => {
                   </div>
                 </div>
                 <div class="flip-card-back">
-                  <div className="card-body cardBack ">
-                    <h3 className="card-title text-center mt-2 cardFlashTitle">
-                      Wireless Microphone
+                  <div className="card-body cardBack">
+                    <h3 className="card-title text-center text-white mt-4 cardFlashTitle">
+                      Up to 30% Off!
                     </h3>
-                    <p className="card-text para text-center">
-                      <span className="text-line text-secondary">$29.99</span> -
-                      $19.99
-                    </p>
+                    <div className="row d-flex justify-content-center mt-4 mb-3 fleshtime">
+                      <div className="col-12">
+                        <h2 className="text-white cardFlashTitlesale">
+                          Sale End In:
+                        </h2>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">2</h3>
+                        <p className="text-white fontsizetime">Hrs</p>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">16</h3>
+                        <p className="text-white fontsizetime">Min</p>
+                      </div>
+                      <div className="col-3 time">
+                        <h3 className="text-white fontsizedigit">27</h3>
+                        <p className="text-white fontsizetime">Sec</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -157,14 +174,29 @@ const FlashSale = () => {
                   </div>
                 </div>
                 <div class="flip-card-back">
-                  <div className="card-body cardBack ">
-                    <h3 className="card-title text-center mt-2 cardFlashTitle">
-                      Wireless Microphone
+                  <div className="card-body cardBack">
+                    <h3 className="card-title text-center text-white mt-4 cardFlashTitle">
+                      Up to 30% Off!
                     </h3>
-                    <p className="card-text para text-center">
-                      <span className="text-line text-secondary">$29.99</span> -
-                      $19.99
-                    </p>
+                    <div className="row d-flex justify-content-center mt-4 mb-3 fleshtime">
+                      <div className="col-12">
+                        <h2 className="text-white cardFlashTitlesale">
+                          Sale End In:
+                        </h2>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">2</h3>
+                        <p className="text-white fontsizetime">Hrs</p>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">16</h3>
+                        <p className="text-white fontsizetime">Min</p>
+                      </div>
+                      <div className="col-3 time">
+                        <h3 className="text-white fontsizedigit">27</h3>
+                        <p className="text-white fontsizetime">Sec</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -206,14 +238,29 @@ const FlashSale = () => {
                   </div>
                 </div>
                 <div class="flip-card-back">
-                  <div className="card-body cardBack ">
-                    <h3 className="card-title text-center mt-2 cardFlashTitle">
-                      Wireless Microphone
+                  <div className="card-body cardBack">
+                    <h3 className="card-title text-center text-white mt-4 cardFlashTitle">
+                      Up to 30% Off!
                     </h3>
-                    <p className="card-text para text-center">
-                      <span className="text-line text-secondary">$29.99</span> -
-                      $19.99
-                    </p>
+                    <div className="row d-flex justify-content-center mt-4 mb-3 fleshtime">
+                      <div className="col-12">
+                        <h2 className="text-white cardFlashTitlesale">
+                          Sale End In:
+                        </h2>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">2</h3>
+                        <p className="text-white fontsizetime">Hrs</p>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">16</h3>
+                        <p className="text-white fontsizetime">Min</p>
+                      </div>
+                      <div className="col-3 time">
+                        <h3 className="text-white fontsizedigit">27</h3>
+                        <p className="text-white fontsizetime">Sec</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -255,14 +302,29 @@ const FlashSale = () => {
                   </div>
                 </div>
                 <div class="flip-card-back">
-                  <div className="card-body cardBack ">
-                    <h3 className="card-title text-center mt-2 cardFlashTitle">
-                      Wireless Microphone
+                  <div className="card-body cardBack">
+                    <h3 className="card-title text-center text-white mt-4 cardFlashTitle">
+                      Up to 30% Off!
                     </h3>
-                    <p className="card-text para text-center">
-                      <span className="text-line text-secondary">$29.99</span> -
-                      $19.99
-                    </p>
+                    <div className="row d-flex justify-content-center mt-4 mb-3 fleshtime">
+                      <div className="col-12">
+                        <h2 className="text-white cardFlashTitlesale">
+                          Sale End In:
+                        </h2>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">2</h3>
+                        <p className="text-white fontsizetime">Hrs</p>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">16</h3>
+                        <p className="text-white fontsizetime">Min</p>
+                      </div>
+                      <div className="col-3 time">
+                        <h3 className="text-white fontsizedigit">27</h3>
+                        <p className="text-white fontsizetime">Sec</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -304,14 +366,29 @@ const FlashSale = () => {
                   </div>
                 </div>
                 <div class="flip-card-back">
-                  <div className="card-body cardBack ">
-                    <h3 className="card-title text-center mt-2 cardFlashTitle">
-                      Wireless Microphone
+                  <div className="card-body cardBack">
+                    <h3 className="card-title text-center text-white mt-4 cardFlashTitle">
+                      Up to 30% Off!
                     </h3>
-                    <p className="card-text para text-center">
-                      <span className="text-line text-secondary">$29.99</span> -
-                      $19.99
-                    </p>
+                    <div className="row d-flex justify-content-center mt-4 mb-3 fleshtime">
+                      <div className="col-12">
+                        <h2 className="text-white cardFlashTitlesale">
+                          Sale End In:
+                        </h2>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">2</h3>
+                        <p className="text-white fontsizetime">Hrs</p>
+                      </div>
+                      <div className="col-3 me-3 time ">
+                        <h3 className="text-white fontsizedigit">16</h3>
+                        <p className="text-white fontsizetime">Min</p>
+                      </div>
+                      <div className="col-3 time">
+                        <h3 className="text-white fontsizedigit">27</h3>
+                        <p className="text-white fontsizetime">Sec</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ThirdNav = () => {
@@ -17,21 +18,21 @@ const ThirdNav = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active" aria-current="page" href="#">
                 Home
-              </a>
-              <a className="nav-link mx-3" href="#">
+              </Link>
+              <Link className="nav-link mx-3" href="/components/About-content/About">
                 About
-              </a>
-              <a className="nav-link " href="#">
+              </Link>
+              <Link className="nav-link " href="#">
                 Product
-              </a>
-              <a className="nav-link mx-3" href="#">
+              </Link>
+              <Link className="nav-link mx-3" href="#">
                 Blog
-              </a>
-              <a className="nav-link " href="#">
+              </Link>
+              <Link className="nav-link " href="#">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>

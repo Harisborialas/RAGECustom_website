@@ -1,6 +1,4 @@
-import Client from "./footer/brands/Clients";
-import Footer from "./footer/footer/Footer";
-import Newsletter from "./footer/newsLetter/Newsletter";
+import Footer from "./footer/Footer";
 import MidContent from "./mid_content/MidContent";
 import Navbar from "./navbar/Navbar";
 
@@ -9,8 +7,6 @@ const Index = () => {
     <>
       <Navbar />
       <MidContent />
-      <Newsletter />
-      <Client />
       <Footer/>
     </>
   );
