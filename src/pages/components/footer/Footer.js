@@ -1,12 +1,10 @@
 import React from "react";
-import Client from "./brands/Clients";
 import Newsletter from "./newsLetter/Newsletter";
 import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
-      <Client />
       <Newsletter />
       <footer className="footer">
         <div className="container">
@@ -42,13 +40,13 @@ const Footer = () => {
                   <Link href="/components/About-content/About">
                     <span className="menuLink">About</span>
                   </Link>
-                  <Link href="/about">
+                  <Link href="/components/Product_category/ProductCategory">
                     <span className="menuLink mt-3">Products</span>
                   </Link>
                   <Link href="/services">
                     <span className="menuLink">Contact</span>
                   </Link>
-                  <Link href="/contact">
+                  <Link href="/components/Blog-content/Blog">
                     <span className="menuLink">Blog</span>
                   </Link>
                   <Link href="/contact">

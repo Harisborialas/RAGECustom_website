@@ -32,14 +32,14 @@ const SecNav = () => {
             </form>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-end mt-2">
-            <a href="" className="sec_nav_icons me-4" target="_blank">
+            <Link href="/components/add_to_cart/AddToCart" className="sec_nav_icons me-4">
               <img
                 src="/pics_svgs/ShoppingBag.svg"
                 alt=""
                 width={32}
                 height={32}
               />
-            </a>
+            </Link>
             <a href="" className="sec_nav_icons me-5" target="_blank">
               <img src="/pics_svgs/email-2.svg" alt="" width={32} height={32} />
             </a>

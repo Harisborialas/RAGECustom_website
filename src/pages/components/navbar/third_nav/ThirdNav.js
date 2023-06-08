@@ -24,10 +24,10 @@ const ThirdNav = () => {
               <Link className="nav-link mx-3" href="/components/About-content/About">
                 About
               </Link>
-              <Link className="nav-link " href="#">
+              <Link className="nav-link " href="/components/Product_category/ProductCategory">
                 Product
               </Link>
-              <Link className="nav-link mx-3" href="#">
+              <Link className="nav-link mx-3" href="/components/Blog-content/Blog">
                 Blog
               </Link>
               <Link className="nav-link " href="#">

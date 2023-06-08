@@ -1,7 +1,7 @@
 import React from "react";
 import AddToCard from "../add_to_cart_button/AddToCart";
 import Rating from "./Rating";
-
+import Link from "next/link";
 const Topproducts = () => {
   return (
     <>
@@ -25,11 +25,15 @@ const Topproducts = () => {
                 <div className="card-body text-center">
                   <p className="product-text mb-0">Smart Mop Robot</p>
                   <p className="product-price-text mb-3">$1000.00</p>
-                  <p>
-                    {/* <Rating /> */}
-                  </p>
+                  <span>
+                    <Rating />
+                  </span>
                 </div>
-                <div className="mb-4"><AddToCard/></div>
+                <div className="mb-4">
+                  <Link href="/components/add_to_cart/AddToCart">
+                    <AddToCard />{" "}
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-12">
@@ -42,11 +46,15 @@ const Topproducts = () => {
                 <div className="card-body text-center">
                   <p className="product-text mb-0">Smart Mop Robot</p>
                   <p className="product-price-text mb-3">$1000.00</p>
-                  <p>
-                    {/* <Rating /> */}
-                  </p>
+                  <span>
+                    <Rating />
+                  </span>
                 </div>
-                <div className="mb-4"><AddToCard/></div>
+                <div className="mb-4">
+                  <Link href="/components/add_to_cart/AddToCart">
+                    <AddToCard />{" "}
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-12">
@@ -59,11 +67,15 @@ const Topproducts = () => {
                 <div className="card-body text-center">
                   <p className="product-text mb-0">Smart Mop Robot</p>
                   <p className="product-price-text mb-3">$1000.00</p>
-                  <p>
-                    {/* <Rating /> */}
-                  </p>
+                  <span>
+                    <Rating />
+                  </span>
                 </div>
-                <div className="mb-4"><AddToCard/></div>
+                <div className="mb-4">
+                  <Link href="/components/add_to_cart/AddToCart">
+                    <AddToCard />{" "}
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-12">
@@ -76,11 +88,15 @@ const Topproducts = () => {
                 <div className="card-body text-center">
                   <p className="product-text mb-0">Smart Mop Robot</p>
                   <p className="product-price-text mb-3">$1000.00</p>
-                  <p>
-                    {/* <Rating /> */}
-                  </p>
+                  <span>
+                    <Rating />
+                  </span>
                 </div>
-                <div className="mb-4"><AddToCard/></div>
+                <div className="mb-4">
+                  <Link href="/components/add_to_cart/AddToCart">
+                    <AddToCard />{" "}
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-12">
@@ -93,11 +109,15 @@ const Topproducts = () => {
                 <div className="card-body text-center">
                   <p className="product-text mb-0">Smart Mop Robot</p>
                   <p className="product-price-text mb-3">$1000.00</p>
-                  <p>
-                    {/* <Rating /> */}
-                  </p>
+                  <span>
+                    <Rating />
+                  </span>
                 </div>
-                <div className="mb-4"><AddToCard/></div>
+                <div className="mb-4">
+                  <Link href="/components/add_to_cart/AddToCart">
+                    <AddToCard />{" "}
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

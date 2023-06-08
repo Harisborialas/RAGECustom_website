@@ -3,6 +3,7 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import ChoosingUs from "./choosing_us/ChoosingUs";
 import Heading from "./our_team/heading/Heading";
+import Client from "../mid_content/brands/Clients";
 
 const About = () => {
   return (
@@ -43,6 +44,7 @@ const About = () => {
       </div>
       <ChoosingUs/>
       <Heading/>
+      <Client/>
       <Footer />
     </>
   );

@@ -1,19 +1,30 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faStar } from "@fortawesome/free-solid-svg-icons";
+const Rating = () => {
+  return (
+    <>
+      <div className="d-flex justify-content-center">
+        <p className="rating-product-value me-2">5.0</p>
+        <span style={{ color: "#FFD687" }}>
+          <div class="rating">
+            <label for="stars-rating-5">
+              <i class="fa fa-star"></i>
+            </label>
+            <label for="stars-rating-4">
+              <i class="fa fa-star"></i>
+            </label>
+            <label for="stars-rating-3">
+              <i class="fa fa-star"></i>
+            </label>
+            <label for="stars-rating-2">
+              <i class="fa fa-star"></i>
+            </label>
+            <label for="stars-rating-1">
+              <i class="fa fa-star"></i>
+            </label>
+          </div>
+        </span>
+      </div>
+    </>
+  );
+};
 
-// const Rating = () => {
-//   return (
-//     <div>
-//       <span className="rating-product-value">5.0 </span>
-//       <span style={{ color: "#FFD687" }}>
-//         <FontAwesomeIcon icon={faStar} style={{ fontSize: "2px" }} />
-//         <FontAwesomeIcon icon={faStar} style={{ fontSize: "2px" }} />
-//         <FontAwesomeIcon icon={faStar} style={{ fontSize: "2px" }} />
-//         <FontAwesomeIcon icon={faStar} style={{ fontSize: "2px" }} />
-//         <FontAwesomeIcon icon={faStar} style={{ fontSize: "2px" }} />
-//       </span>
-//     </div>
-//   );
-// };
-
-// export default Rating;
+export default Rating;

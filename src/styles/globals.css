@@ -751,11 +751,10 @@ ________________________________________________________________________________
 
 .contactus-footer {
   display: flex;
-  
 }
 
 .img-contactus-footer {
-  width: 20px; 
+  width: 20px;
 }
 
 .text-contactus-footer {
@@ -784,7 +783,6 @@ ________________________________________________________________________________
   text-decoration: none;
   color: #272626;
   opacity: 1;
-
 }
 .footer-copyright-text {
   font-family: "Poppins";
@@ -884,3 +882,664 @@ ________________________________________________________________________________
   line-height: 27px;
   color: #a7a7a7;
 }
+/* _______________________________________________________________________________________________________________________---
+___________________________________________________Prodyct Categories____________________________________________________________________---
+_______________________________________________________________________________________________________________________--- */
+#colcategory {
+  width: 627.6px;
+  height: 147px;
+  margin: auto;
+}
+.categoryheading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+}
+.categorypara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #383838;
+}
+/* _____________________________________________________________________________________________________________________________-
+_____________________________________________________________________________________________________________________________-
+_____________________________________________________________________________________________________________________________- */
+.tags_productcategory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 16px;
+  border: 1px solid #a7a7a7;
+  border-radius: 16px;
+  height: 140px;
+}
+.para_tagsproduct {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #383838;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/* _____________________________________________________________________________________________________________________________-
+________________________________________________________Featured Brand_____________________________________________________________________-
+_____________________________________________________________________________________________________________________________- */
+
+.headingFeaturedbrand {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #383838;
+}
+/* __________________________________________________________________________________________________________________________-
+________________________________________________________Product List__________________________________________________________________-
+__________________________________________________________________________________________________________________________- */
+
+.productlistheading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #383838;
+}
+#ProductCategory {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+/* _______________________________________________________________________________________________________________________________
+_________________________________________________________All categories______________________________________________________________________
+_______________________________________________________________________________________________________________________________ */
+
+.headingallcategores {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+#border {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+.paraallcategory {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#containerallcategory {
+  height: 400px;
+  overflow-y: scroll;
+}
+/* ____________________________________________________________________________________________________________________-
+_________________________________________________Filter by Price___________________________________________________________________-
+____________________________________________________________________________________________________________________- */
+.headingfilter {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  cursor: pointer;
+}
+#containerfilterborder {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+/* _______________________________________________________________________________________________________________-
+___________________________________________________Filter by rating____________________________________________________________-
+_______________________________________________________________________________________________________________- */
+.headingfilterrating {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  cursor: pointer;
+}
+/* _________________________________________________________________________________________________________________
+____________________________________________________Single Product_____________________________________________________________
+_________________________________________________________________________________________________________________ */
+
+.imgsingleproduct {
+  width: 100%;
+}
+.namesingle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  color: #383838;
+}
+.shipment {
+  display: flex;
+}
+.headingimg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+.paradescription {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #a7a7a7;
+}
+.btnaddtocard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  width: 180px;
+  height: 60px;
+  background: #f46b5b;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+.btnaddtocard2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 120px;
+  height: 60px;
+  border: 1px solid #f46b5b;
+  color: #f46b5b;
+  border-radius: 8px;
+}
+/* ___________________________________________________________________________________________________________________
+_____________________________________________________CART______________________________________________________________
+___________________________________________________________________________________________________________________ */
+
+.mycartheading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+  text-align: center;
+}
+/* .title {
+  margin-bottom: 5vh;
+} */
+/* .card{
+  margin: auto;
+  border-radius: 1rem;
+  border: transparent;
+} */
+@media (max-width: 767px) {
+  /* .card {
+    margin: 3vh auto;
+  } */
+}
+.cart {
+  background-color: #fff;
+  padding: 4vh 5vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+@media (max-width: 767px) {
+  .cart {
+    padding: 4vh;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 1rem;
+  }
+}
+.summary {
+  background-color: #ddd;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 4vh;
+  color: rgb(65, 65, 65);
+}
+@media (max-width: 767px) {
+  .summary {
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 1rem;
+  }
+}
+.summary .col-2 {
+  padding: 0;
+}
+.summary .col-10 {
+  padding: 0;
+}
+/* .row {
+  margin: 0;
+} */
+/* .title b {
+  font-size: 1.5rem;
+} */
+.main {
+  margin: 0;
+  padding: 2vh 0;
+  width: 100%;
+}
+/* .col-2,
+.col {
+  padding: 0 1vh;
+} */
+/* a {
+  padding: 0 1vh;
+} */
+.close {
+  margin-left: auto;
+  font-size: 0.7rem;
+}
+/* img{
+  width: 3.5rem;
+} */
+.back-to-shop {
+  margin-top: 4.5rem;
+}
+/* h5{
+  margin-top: 4vh;
+} */
+hr {
+  margin-top: 1.25rem;
+}
+/* form {
+  padding: 2vh 0;
+} */
+select {
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1.5vh 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+/* input{
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+} */
+/* input:focus::-webkit-input-placeholder {
+  color: transparent;
+} */
+/* .btn{
+  background-color: #000;
+  border-color: #000;
+  color: white;
+  width: 100%;
+  font-size: 0.7rem;
+  margin-top: 4vh;
+  padding: 1vh;
+  border-radius: 0;
+} */
+/* .btn:focus{
+  box-shadow: none;
+  outline: none;
+  box-shadow: none;
+  color: white;
+  -webkit-box-shadow: none;
+  -webkit-user-select: none;
+  transition: none; 
+} */
+/* .btn:hover{
+  color: white;
+} */
+/* a{
+  color: black; 
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+} */
+/* #code {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.253),
+      rgba(255, 255, 255, 0.185)
+    ),
+    url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+} */
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page_____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.blog-heading-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+}
+
+.blog-paragraph-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #383838;
+}
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page // Blog Section _____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.blog-section-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.blog-section-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #a7a7a7;
+}
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page // Pagination_____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.pagination .page-item {
+  margin-right: 10px;
+}
+
+.pagination .page-link {
+  width: 51px;
+  height: 51px;
+  box-sizing: border-box;
+  border: 2px solid #a7a7a7;
+  border-radius: 8px;
+}
+.page-link-arrow {
+  width: 51px;
+  height: 51px;
+  border: none;
+  background: transparent;
+}
+
+.page-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a7a7a7;
+}
+
+.page-link.active {
+  color: white;
+  background-color: #f46b5b;
+  border: none;
+}
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page // Filter-Section_____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+
+.Filter-section-center-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page // Search Bar_____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 376px;
+  height: 50px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #d0d0d2;
+  border-radius: 8px;
+}
+
+.search-icon {
+  padding: 10px;
+  color: #777777ce;
+}
+
+.search-input {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a7a7a7;
+  flex: 1;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width: 576px) {
+  .search-container {
+    max-width: 100%;
+  }
+}
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page // Categories Bar_____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+
+.categories-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 376px;
+  padding: 15px 0px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #d0d0d2;
+  border-radius: 8px;
+}
+
+.categories-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  padding: 10px;
+}
+
+.category-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+.category-menu-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.category-menu-item:hover {
+  background-color: #f5f5f5;
+}
+
+.category-icon {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+.icon-arrow:before {
+  content: "\1F3E0";
+}
+
+@media (max-width: 576px) {
+  .categories-container {
+    max-width: 100%;
+  }
+  .category-menu {
+    width: 100%;
+  }
+}
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page // Tag Bar_____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.tags-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 376px;
+  padding: 15px 0px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #d0d0d2;
+  border-radius: 8px;
+}
+
+.tags-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  padding: 10px;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-filter-section {
+  padding: 8px;
+  border: 1px solid #c4c4c6;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+}
+
+/* ______________________________________________________________________________________________________________________________
+_______________________________________________Blog Page // recten post_____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+
+.Blog-filter-section-heading{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #383838;
+
+}
+
+.Blog-filter-section-paragraph{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #383838;
+
+}
+.Blog-filter-section-paragraph-2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #383838;
+}
+
+.Blog-filter-section-paragraph-2-span{
+  color: #F46B5B;
+}
+
+
+
+
+
+
+
+
+
