@@ -11,7 +11,7 @@ const ProductCategory = () => {
     <>
       <Navbar />
       <div className="container">
-        <div className="row">
+        <div className="row mt-5">
           <div className="col-12" id="colcategory">
             <h1 className="text-center categoryheading">All Categories</h1>
             <p className="text-center categorypara">
