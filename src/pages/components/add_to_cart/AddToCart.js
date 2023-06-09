@@ -13,118 +13,118 @@ const AddToCart = () => {
       </div>
         <div className="row mt-5">
           <div className="col-12">
-            <div class="card">
-              <div class="row">
-                <div class="col-md-8 cart">
-                  <div class="title">
-                    <div class="row">
-                      <div class="col">
+            <div className="card">
+              <div className="row">
+                <div className="col-md-8 cart">
+                  <div className="title">
+                    <div className="row">
+                      <div className="col">
                         <h4>
                           <b>Shopping Cart</b>
                         </h4>
                       </div>
-                      <div class="col align-self-center text-right text-muted">
+                      <div className="col align-self-center text-right text-muted">
                         3 items
                       </div>
                     </div>
                   </div>
-                  <div class="row border-top border-bottom">
-                    <div class="row main align-items-center">
-                      <div class="col-2">
+                  <div className="row border-top border-bottom">
+                    <div className="row main align-items-center">
+                      <div className="col-2">
                         <img
-                          class="img-fluid"
+                          className="img-fluid"
                           src="https://i.imgur.com/1GrakTl.jpg"
                         />
                       </div>
-                      <div class="col">
-                        <div class="row text-muted">Shirt</div>
-                        <div class="row">Cotton T-shirt</div>
+                      <div className="col">
+                        <div className="row text-muted">Shirt</div>
+                        <div className="row">Cotton T-shirt</div>
                       </div>
-                      <div class="col">
+                      <div className="col">
                         <a href="#">-</a>
-                        <a href="#" class="border">
+                        <a href="#" className="border">
                           1
                         </a>
                         <a href="#">+</a>
                       </div>
-                      <div class="col">
-                        &euro; 44.00 <span class="close">&#10005;</span>
+                      <div className="col">
+                        &euro; 44.00 <span className="close">&#10005;</span>
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="row main align-items-center">
-                      <div class="col-2">
+                  <div className="row">
+                    <div className="row main align-items-center">
+                      <div className="col-2">
                         <img
-                          class="img-fluid"
+                          className="img-fluid"
                           src="https://i.imgur.com/ba3tvGm.jpg"
                         />
                       </div>
-                      <div class="col">
-                        <div class="row text-muted">Shirt</div>
-                        <div class="row">Cotton T-shirt</div>
+                      <div className="col">
+                        <div className="row text-muted">Shirt</div>
+                        <div className="row">Cotton T-shirt</div>
                       </div>
-                      <div class="col">
+                      <div className="col">
                         <a href="#">-</a>
-                        <a href="#" class="border">
+                        <a href="#" className="border">
                           1
                         </a>
                         <a href="#">+</a>
                       </div>
-                      <div class="col">
-                        &euro; 44.00 <span class="close">&#10005;</span>
+                      <div className="col">
+                        &euro; 44.00 <span className="close">&#10005;</span>
                       </div>
                     </div>
                   </div>
-                  <div class="row border-top border-bottom">
-                    <div class="row main align-items-center">
-                      <div class="col-2">
+                  <div className="row border-top border-bottom">
+                    <div className="row main align-items-center">
+                      <div className="col-2">
                         <img
-                          class="img-fluid"
+                          className="img-fluid"
                           src="https://i.imgur.com/pHQ3xT3.jpg"
                         />
                       </div>
-                      <div class="col">
-                        <div class="row text-muted">Shirt</div>
-                        <div class="row">Cotton T-shirt</div>
+                      <div className="col">
+                        <div className="row text-muted">Shirt</div>
+                        <div className="row">Cotton T-shirt</div>
                       </div>
-                      <div class="col">
+                      <div className="col">
                         <a href="#">-</a>
-                        <a href="#" class="border">
+                        <a href="#" className="border">
                           1
                         </a>
                         <a href="#">+</a>
                       </div>
-                      <div class="col">
-                        &euro; 44.00 <span class="close">&#10005;</span>
+                      <div className="col">
+                        &euro; 44.00 <span className="close">&#10005;</span>
                       </div>
                     </div>
                   </div>
-                  <div class="back-to-shop">
+                  <div className="back-to-shop">
                     <a href="#">&leftarrow;</a>
-                    <span class="text-muted">Back to shop</span>
+                    <span className="text-muted">Back to shop</span>
                   </div>
                 </div>
-                <div class="col-md-4 summary">
+                <div className="col-md-4 summary">
                   <div>
                     <h5>
                       <b>Summary</b>
                     </h5>
                   </div>
                   <hr />
-                  <div class="row">
+                  <div className="row">
                     <div
-                      class="col"
+                      className="col"
                       //   style="padding-left:0;"
                     >
                       ITEMS 3
                     </div>
-                    <div class="col text-right">&euro; 132.00</div>
+                    <div className="col text-right">&euro; 132.00</div>
                   </div>
                   <form>
                     <p>SHIPPING</p>
                     <select>
-                      <option class="text-muted">
+                      <option className="text-muted">
                         Standard-Delivery- &euro;5.00
                       </option>
                     </select>
@@ -132,13 +132,13 @@ const AddToCart = () => {
                     <input id="code" placeholder="Enter your code" />
                   </form>
                   <div
-                    class="row"
+                    className="row"
                     //   style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;"
                   >
-                    <div class="col">TOTAL PRICE</div>
-                    <div class="col text-right">&euro; 137.00</div>
+                    <div className="col">TOTAL PRICE</div>
+                    <div className="col text-right">&euro; 137.00</div>
                   </div>
-                  <button class="btn">CHECKOUT</button>
+                  <button className="btn">CHECKOUT</button>
                 </div>
               </div>
             </div>

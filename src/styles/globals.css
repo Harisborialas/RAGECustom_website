@@ -640,7 +640,9 @@ ________________________________________________________________________________
   line-height: 68px;
   color: #383838;
 }
-
+#cardtopproductlength{
+  height: 550px;
+}
 .row-container {
   width: 100%;
   overflow: auto;
@@ -1499,7 +1501,11 @@ ________________________________________________________________________________
   font-size: 18px;
   color: #383838;
 }
-
+@media (max-width: 576px) {
+  .tags-container {
+    max-width: 100%;
+  }
+}
 /* ______________________________________________________________________________________________________________________________
 _______________________________________________Blog Page // recten post_____________________________________________________________________________
 ______________________________________________________________________________________________________________________________ */
@@ -1534,7 +1540,306 @@ color: #383838;
 .Blog-filter-section-paragraph-2-span{
   color: #F46B5B;
 }
+/* ______________________________________________________________________________________________________________________________
+______________________________________________Date 9-06-2023____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
 
+/* ______________________________________________________________________________________________________________________________
+______________________________________________Link Blog Setion to Single Blog Post____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.Link-blog-section {
+  text-decoration: none;
+}
+
+/* ______________________________________________________________________________________________________________________________
+______________________________________________Blog Post____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.blogpost-heading-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+}
+
+.blogpost-paragraph-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #383838;
+}
+
+/* ______________________________________________________________________________________________________________________________
+______________________________________________Single Blog Post (Right Colum of Blog Post)____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.Single-Blog-Post-Row {
+  width: 100%;
+}
+
+.Single-Blog-Post-Heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #383838;
+}
+
+.Single-Blog-Post-breadcrumbs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a7a7a7;
+}
+
+.Single-Blog-Post-Details-Paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #383838;
+}
+
+.Single-Blog-Post-Details-Paragraph-qoutes {
+  background: #f46b5b;
+  border-radius: 8px;
+  padding: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  text-transform: lowercase;
+  color: #fafafa;
+}
+.qoutes {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fafafa;
+}
+
+.single-blog-post-tags-container {
+  width: 100%;
+  padding: 15px 0px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #d0d0d2;
+  border-radius: 8px;
+}
+.single-blog-post-tags-heading h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+.single-blog-post-tags-heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+}
+
+.single-blog-post-tags-heading-share h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.single-blog-related-post {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.Single-Blog-Post-Comment-Heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.comment-section-user-comment {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.input-field-lable {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.custom-textarea {
+  padding: 10px;
+  background: #fafafa;
+  opacity: 0.5;
+  border: 1px solid #a7a7a7;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #333;
+  width: 100%;
+  height: 120px;
+  resize: vertical; 
+}
+
+.custom-input-2 {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 100%;
+  background: #fafafa;
+  opacity: 0.5;
+  border: 1px solid #a7a7a7;
+}
+
+/* ______________________________________________________________________________________________________________________________
+______________________________________________Contact Us____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.Contact-us-main-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+}
+
+.Contact-us-main-paragraph {
+  width: 70%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+}
+
+/* ______________________________________________________________________________________________________________________________
+______________________________________________Contact Us // ContactUS-Form-Fields____________________________________________________________________________
+______________________________________________________________________________________________________________________________ */
+
+.contactus-form-fields-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #d0d0d2;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.input-field-lable-contactus {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  padding: 20px 0px;
+}
+
+.custom-input-for-contactus {
+  background: #fafafa;
+  opacity: 0.5;
+  border: 1px solid #383838;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.custom-textarea-contactus {
+  background: #FAFAFA;
+opacity: 0.5;
+border: 1px solid #A7A7A7;
+border-radius: 8px;
+  padding: 10px;
+
+  font-size: 18px;
+  color: #000000;
+  height: 120px;
+ 
+}
+.btn-submit-contactus-form{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #FAFAFA;
+}
+
+.btn-submit-contactus-form{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 50px;
+background: #F46B5B;
+border-radius: 8px;
+}
+
+.form-check-input:checked {
+  background-color: #F46B5B;;
+}
+
+.form-check-input:checked::before {
+  color: white;
+}
+.checkbox-lg {
+  width: 1.3em;
+  height: 1.1em;
+}
+
+.form-check-label{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #A7A7A7;
+}
+/* ______________________________________________________________________________________________________________________________
+______________________________________________Contact Us // ContactUS-Form-Fields____________________________________________________________________________
+___________________________________________________Form-Control Issue_________________________________________________________________________ */
+
+
+.form-control  {
+  max-width: 900px;
+ 
+}
 
 
 

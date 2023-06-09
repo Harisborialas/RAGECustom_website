@@ -3,8 +3,8 @@ import React from "react";
 const Searchbar = () => {
   return (
     <>
-      <div class="search-container mb-3">
-        <div class="search-icon">
+      <div className="search-container mb-3">
+        <div className="search-icon">
           <svg
             width="18"
             height="18"
@@ -18,7 +18,7 @@ const Searchbar = () => {
             />
           </svg>
         </div>
-        <input type="text" class="search-input" placeholder="Search..." />
+        <input type="text" className="search-input" placeholder="Search..." />
       </div>
     </>
   );

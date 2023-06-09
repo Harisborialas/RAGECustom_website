@@ -8,8 +8,8 @@ const Filtersection = () => {
   return (
     <>
      
-    <div class="row">
-      <div class="col-12 Filter-section-center-content">
+    <div className="row">
+      <div className="col-12 Filter-section-center-content">
       <Searchbar />
       <Categories />
       <Tagsfiltersection />

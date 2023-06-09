@@ -17,10 +17,10 @@ const OurCollection = () => {
         </div>
         <div className="row mt-4">
           <div className="col-lg-6 col-12">
-            <div class="card" id="ourcollection-1">
-              <div class="card-body card-collection">
-                <h5 class="card-title collection-text">PC Gaming Collection</h5>
-                <p class="collection-para">
+            <div className="card" id="ourcollection-1">
+              <div className="card-body card-collection">
+                <h5 className="card-title collection-text">PC Gaming Collection</h5>
+                <p className="collection-para">
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -28,10 +28,10 @@ const OurCollection = () => {
             </div>
           </div>
           <div className="col-lg-6 col-12">
-            <div class="card" id="ourcollection-1">
-              <div class="card-body card-collection">
-                <h5 class="card-title collection-text">Camera Collection</h5>
-                <p class="collection-para">
+            <div className="card" id="ourcollection-1">
+              <div className="card-body card-collection">
+                <h5 className="card-title collection-text">Camera Collection</h5>
+                <p className="collection-para">
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>

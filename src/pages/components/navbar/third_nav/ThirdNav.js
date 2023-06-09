@@ -30,7 +30,7 @@ const ThirdNav = () => {
               <Link className="nav-link mx-3" href="/components/Blog-content/Blog">
                 Blog
               </Link>
-              <Link className="nav-link " href="#">
+              <Link className="nav-link " href="/components/Contact-us/ContactUs">
                 Contact
               </Link>
             </div>

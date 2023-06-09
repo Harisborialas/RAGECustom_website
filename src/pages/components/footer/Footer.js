@@ -43,7 +43,7 @@ const Footer = () => {
                   <Link href="/components/Product_category/ProductCategory">
                     <span className="menuLink mt-3">Products</span>
                   </Link>
-                  <Link href="/services">
+                  <Link href="/components/Contact-us/ContactUs">
                     <span className="menuLink">Contact</span>
                   </Link>
                   <Link href="/components/Blog-content/Blog">

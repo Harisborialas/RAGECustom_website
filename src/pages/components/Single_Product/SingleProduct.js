@@ -20,14 +20,14 @@ const SingleProduct = () => {
           </div>
 
           <div className="col-lg-6 col-12 p-4">
-            <div class="col-12 d-flex justify-content-start">
+            <div className="col-12 d-flex justify-content-start">
               <Rating />
             </div>
-            <div class="product-deatil">
-              <h5 class="namesingle">
+            <div className="product-deatil">
+              <h5 className="namesingle">
                 Product Name Title Here <span>Category</span>
               </h5>
-              <p class="price-container">
+              <p className="price-container">
                 <span>$99</span>
               </p>
             </div>
@@ -63,7 +63,7 @@ const SingleProduct = () => {
                 <span className="headingimg">In Stock</span>
               </p>
             </div>
-            <div class="mt-3">
+            <div className="mt-3">
               <h3 className="description">Description</h3>
               <p className="paradescription">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -72,13 +72,13 @@ const SingleProduct = () => {
                 quidem, corrupti nam!
               </p>
             </div>
-            <div class="product-info smart-form">
-              <div class="row">
-                <div class="col-md-12  col-sm-6 col-xs-6 d-flex justify-content-end">
-                  <button href="#" class="btnaddtocard2 me-2">
+            <div className="product-info smart-form">
+              <div className="row">
+                <div className="col-md-12  col-sm-6 col-xs-6 d-flex justify-content-end">
+                  <button href="#" className="btnaddtocard2 me-2">
                     Chat
                   </button>
-                  <button href="#" class="btnaddtocard1">
+                  <button href="#" className="btnaddtocard1">
                     Add to cart
                   </button>
                 </div>

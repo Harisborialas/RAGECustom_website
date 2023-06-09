@@ -17,7 +17,7 @@ const FilterByShipment = () => {
         </div>
         {isFilterVisible && 
         <div className="row">
-            <div className="col-col-12" id="containerfilterborder">
+            <div className="col-col-12" id="">
                 <p>shipment</p>
             </div>
         </div>
