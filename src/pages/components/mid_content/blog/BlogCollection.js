@@ -26,7 +26,7 @@ const Blogcollection = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-4 mb-3">
+          <div className="col-12 col-md-4 mb-3 p-1">
             <div className="card rounded" id="card">
               <img
                 src="/pics_svgs/placeholder.svg"
@@ -47,7 +47,7 @@ const Blogcollection = () => {
               </div>
             </div>
           </div>{" "}
-          <div className="col-12 col-md-4 mb-3">
+          <div className="col-12 col-md-4 mb-3 p-1">
             <div className="card rounded" id="card">
               <img
                 src="/pics_svgs/placeholder.svg"

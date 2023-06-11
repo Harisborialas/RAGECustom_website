@@ -9,7 +9,7 @@ import FlashSale from './flashSale/FlashSale'
 import Topproducts from './topRatedProducts/TopProducts'
 import Client from './brands/Clients'
 
-const MidContent = ({data}) => {
+const MidContent = () => {
   return (
     <>
       <Carousel/>
@@ -18,7 +18,7 @@ const MidContent = ({data}) => {
       <FeaturedProducts/>
       <OurCollection/>
       <FlashSale/>
-      <Topproducts data={data}/>
+      <Topproducts/>
       <Blog/>
       <Client/>
     </>

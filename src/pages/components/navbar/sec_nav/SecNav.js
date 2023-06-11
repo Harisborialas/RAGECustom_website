@@ -40,15 +40,19 @@ const SecNav = () => {
                 height={32}
               />
             </Link>
-            <a href="" className="sec_nav_icons me-5" target="_blank">
+            <a href="/" className="sec_nav_icons me-5" target="_blank">
               <img src="/pics_svgs/email-2.svg" alt="" width={32} height={32} />
             </a>
-            <a href="" className="sec_nav_btn me-4">
+            <Link href="/components/Login-Page/Login" className="sec_nav_btn me-4">
+            
               <p className="signin">Sign In</p>
-            </a>
+           
+            </Link>
+            <Link href="/components/MyAccount/AccountDetails/AccountDetails">
             <button className="btn text-white" id="btn_signupnav">
               Sign Up
             </button>
+            </Link>
           </div>
         </div>
       </div>

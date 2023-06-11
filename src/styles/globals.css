@@ -1723,7 +1723,7 @@ ________________________________________________________________________________
 }
 
 /* ______________________________________________________________________________________________________________________________
-______________________________________________Contact Us____________________________________________________________________________
+_____________________________________________Contact Us___________________________________________________________________________
 ______________________________________________________________________________________________________________________________ */
 
 .Contact-us-main-heading {
@@ -1746,7 +1746,7 @@ ________________________________________________________________________________
 }
 
 /* ______________________________________________________________________________________________________________________________
-______________________________________________Contact Us // ContactUS-Form-Fields____________________________________________________________________________
+_____________________________________________Contact Us // ContactUS-Form-Fields___________________________________________________________________________
 ______________________________________________________________________________________________________________________________ */
 
 .contactus-form-fields-container {
@@ -1782,37 +1782,36 @@ ________________________________________________________________________________
 }
 
 .custom-textarea-contactus {
-  background: #FAFAFA;
-opacity: 0.5;
-border: 1px solid #A7A7A7;
-border-radius: 8px;
+  background: #fafafa;
+  opacity: 0.5;
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
   padding: 10px;
 
   font-size: 18px;
   color: #000000;
   height: 120px;
- 
 }
-.btn-submit-contactus-form{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-color: #FAFAFA;
+.btn-submit-contactus-form {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fafafa;
 }
 
-.btn-submit-contactus-form{
+.btn-submit-contactus-form {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 50px;
-background: #F46B5B;
-border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 50px;
+  background: #f46b5b;
+  border-radius: 8px;
 }
 
 .form-check-input:checked {
-  background-color: #F46B5B;;
+  background-color: #f46b5b;
 }
 
 .form-check-input:checked::before {
@@ -1823,22 +1822,274 @@ border-radius: 8px;
   height: 1.1em;
 }
 
-.form-check-label{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #A7A7A7;
+.form-check-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+}
+
+/* ______________________________________________________________________________________________________________________________
+_____________________________________________New___________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+/* ______________________________________________________________________________________________________________________________
+_____________________________________________Contact Us // ContactUS-Form-Fields___________________________________________________________________________
+__________________________________________________Form-Control Issue________________________________________________________________________ */
+
+.contactus-details-section-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 50px;
+  background: #f46b5b;
+  border-radius: 32px;
+  color: #fafafa;
+}
+
+.contactus-details-section-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #fafafa;
+}
+
+.contactus-details-section-details {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #fafafa;
+}
+
+.contactus-details-section-paragraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fafafa;
 }
 /* ______________________________________________________________________________________________________________________________
-______________________________________________Contact Us // ContactUS-Form-Fields____________________________________________________________________________
-___________________________________________________Form-Control Issue_________________________________________________________________________ */
+_____________________________________________Contact Us // ContactUS-Form-Fields___________________________________________________________________________
+__________________________________________________Form-Control Issue________________________________________________________________________ */
 
-
-.form-control  {
+/* .form-control  {
   max-width: 900px;
  
+} */
+
+/* ______________________________________________________________________________________________________________________________
+_____________________________________________Login Form___________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.login-form-section-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  padding: 25px;
+  background: #fafafa;
+  border: 1px solid #d0d0d2;
+  border-radius: 32px;
+}
+
+.formContainer {
+  padding: 25px;
+  width: 100%;
+}
+
+.formContainer h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+}
+
+.formContainer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+  margin-bottom: 1.5rem;
+}
+.inputContainer {
+  margin-top: 20px;
+}
+
+.inputField {
+  border: 1px solid #d0d0d2;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.inputLable {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  padding: 15px 0px;
+}
+
+.loginButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fafafa;
+  background: #f46b5b;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px 5px;
+  text-transform: capitalize;
+}
+
+.loginButton:hover {
+  background: #cd574a;
+}
+.login-forget-section {
+  padding: 20px 0px;
+  width: 100%;
+}
+.formContainer .login-forget-section-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f46b5b;
+  margin: 0;
+}
+
+.login-with-section {
+  padding: 25px 0px;
+  width: 100%;
+}
+
+.login-with-section-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #383838;
+}
+
+/* ______________________________________________________________________________________________________________________________
+_____________________________________________My Account Page___________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.Account-Details-form-section-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px;
+  background: #fafafa;
+  border: 1px solid #d0d0d2;
+  border-radius: 32px;
+}
+
+.Account-Details-Heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #383838;
+}
+
+.Account-Details-Paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+}
+
+.Account-Details-paragraph-span {
+  color: #f46b5b;
+}
+.Account-Details-Paragraph a {
+  text-decoration: none;
+}
+
+.AccountDetails-Side-Bar{
+  border-left: 1px solid rgba(56, 56, 56, 0.5);
+}
+
+@media (max-width: 768px) {
+  .AccountDetails-Side-Bar{
+    border-left: none;
+  }
+}
+
+.btn-save-myaccountdetails{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fafafa;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background: #f46b5b;
+  border-radius: 8px;
+
+}
+
+
+
+/* ______________________________________________________________________________________________________________________________
+_____________________________________________My Account Page// My Profile Page___________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.MyProfile-Side-Bar {
+  padding: 0px 20px;
+}
+
+.Account-Details-Nav-menu nav {
+  padding: 30px 0px 0px 0px;
+}
+
+.Account-Details-Nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Account-Details-Nav-menu li {
+  margin-bottom: 5px;
+}
+
+.Account-Details-Nav-menu a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.Account-Details-Nav-menu p.active {
+  color: red;
 }
 
 

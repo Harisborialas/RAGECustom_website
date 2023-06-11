@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import Link from "next/link";
 import Rating from "../mid_content/topRatedProducts/Rating";
+import { useRouter } from "next/router";
 
 const SingleProduct = () => {
-    
+  
   return (
     <>
       <Navbar />

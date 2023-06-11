@@ -18,10 +18,10 @@ const ContactUs = () => {
           third parties.
         </p>
         <div className="row py-3">
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-7">
                 <Contactusformfields />
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-5">
                 <Contactusdetails />
                 </div>
         </div>
