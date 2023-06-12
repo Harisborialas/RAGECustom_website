@@ -32,7 +32,9 @@ const SecNav = () => {
             </form>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-end mt-2">
-            <Link href="/components/add_to_cart/AddToCart" className="sec_nav_icons me-4">
+            <Link
+              href="/components/add_to_cart/AddToCart"
+              className="sec_nav_icons me-4">
               <img
                 src="/pics_svgs/ShoppingBag.svg"
                 alt=""
@@ -43,15 +45,15 @@ const SecNav = () => {
             <a href="/" className="sec_nav_icons me-5" target="_blank">
               <img src="/pics_svgs/email-2.svg" alt="" width={32} height={32} />
             </a>
-            <Link href="/components/Login-Page/Login" className="sec_nav_btn me-4">
-            
+            <Link
+              href="/components/Login-Page/Login"
+              className="sec_nav_btn me-4">
               <p className="signin">Sign In</p>
-           
             </Link>
             <Link href="/components/MyAccount/AccountDetails/AccountDetails">
-            <button className="btn text-white" id="btn_signupnav">
-              Sign Up
-            </button>
+              <button className="btn text-white" id="btn_signupnav">
+                Sign Up
+              </button>
             </Link>
           </div>
         </div>
