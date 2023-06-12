@@ -23,11 +23,13 @@ const SecNav = () => {
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <div className="input-group-append">
-                  <span className="input-group-text" id="searchicon">
-                    <FaSearch />
-                  </span>
-                </div>
+                <Link href="/components/Search-Page/Search">
+                  <div className="input-group-append">
+                    <span className="input-group-text" id="searchicon">
+                      <FaSearch />
+                    </span>
+                  </div>
+                </Link>
               </div>
             </form>
           </div>

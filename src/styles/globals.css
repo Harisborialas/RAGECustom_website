@@ -641,7 +641,7 @@ ________________________________________________________________________________
   line-height: 68px;
   color: #383838;
 }
-#cardtopproductlength{
+#cardtopproductlength {
   height: 550px;
 }
 .row-container {
@@ -991,9 +991,22 @@ ________________________________________________________________________________
   order: 1;
   flex-grow: 0;
 }
+
 #containerallcategory {
-  height: 400px;
+  height: 10.938rem;
   overflow-y: scroll;
+}
+
+#containerallcategory::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+#containerallcategory::-webkit-scrollbar-thumb {
+  background-color: #f46b5b;
+}
+
+#containerallcategory::-webkit-scrollbar-track {
+  background-color: #d0d0d2;
 }
 /* ____________________________________________________________________________________________________________________-
 _________________________________________________Filter by Price___________________________________________________________________-
@@ -1335,13 +1348,11 @@ ________________________________________________________________________________
 _______________________________________________Blog Page // Filter-Section_____________________________________________________________________________
 ______________________________________________________________________________________________________________________________ */
 
-
-.Filter-section-center-content{
+.Filter-section-center-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
 }
 
 /* ______________________________________________________________________________________________________________________________
@@ -1388,7 +1399,6 @@ ________________________________________________________________________________
 /* ______________________________________________________________________________________________________________________________
 _______________________________________________Blog Page // Categories Bar_____________________________________________________________________________
 ______________________________________________________________________________________________________________________________ */
-
 
 .categories-container {
   position: relative;
@@ -1511,35 +1521,32 @@ ________________________________________________________________________________
 _______________________________________________Blog Page // recten post_____________________________________________________________________________
 ______________________________________________________________________________________________________________________________ */
 
-
-.Blog-filter-section-heading{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 27px;
-color: #383838;
-
+.Blog-filter-section-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
 }
 
-.Blog-filter-section-paragraph{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-color: #383838;
-
+.Blog-filter-section-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #383838;
 }
-.Blog-filter-section-paragraph-2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #383838;
+.Blog-filter-section-paragraph-2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #383838;
 }
 
-.Blog-filter-section-paragraph-2-span{
-  color: #F46B5B;
+.Blog-filter-section-paragraph-2-span {
+  color: #f46b5b;
 }
 /* ______________________________________________________________________________________________________________________________
 ______________________________________________Date 9-06-2023____________________________________________________________________________
@@ -1710,7 +1717,7 @@ ________________________________________________________________________________
   color: #333;
   width: 100%;
   height: 120px;
-  resize: vertical; 
+  resize: vertical;
 }
 
 .custom-input-2 {
@@ -2031,17 +2038,17 @@ ________________________________________________________________________________
   text-decoration: none;
 }
 
-.AccountDetails-Side-Bar{
+.AccountDetails-Side-Bar {
   border-left: 1px solid rgba(56, 56, 56, 0.5);
 }
 
 @media (max-width: 768px) {
-  .AccountDetails-Side-Bar{
+  .AccountDetails-Side-Bar {
     border-left: none;
   }
 }
 
-.btn-save-myaccountdetails{
+.btn-save-myaccountdetails {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -2052,10 +2059,7 @@ ________________________________________________________________________________
   padding: 10px 40px;
   background: #f46b5b;
   border-radius: 8px;
-
 }
-
-
 
 /* ______________________________________________________________________________________________________________________________
 _____________________________________________My Account Page// My Profile Page___________________________________________________________________________
@@ -2092,11 +2096,208 @@ ________________________________________________________________________________
 .Account-Details-Nav-menu p.active {
   color: red;
 }
+/* ______________________________________________________________________________________________________________________________
+____________________________________________Search Page__________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
 
+.Search-Heading-text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+}
 
+.Search-Dashboard-Image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  margin-right: 20px;
+  gap: 10px;
+  width: 60px;
+  height: 60px;
+  background: #fafafa;
+  box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
 
+.Search-page-form_searchbar {
+  width: 50%;
+}
 
+.Search-page-form-control {
+  background: #fafafa;
+  border: none;
+  width: 648px;
+  height: 60px;
+  box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
+}
 
+.Search-page-form-control:focus {
+  outline: none;
+  box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
+}
 
+.Search-page-form-control::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+  padding-left: 36px;
+  opacity: 0.5;
+}
 
+#Search-Page-searchicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 60px;
+  height: 60px;
+  background: #f46b5b;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #f46b5b;
+  color: white;
+  box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
+}
 
+.Search-Last-text h2 {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 51px;
+  color: #383838;
+}
+
+.Search-Last-list-text {
+  margin-top: 2.125rem;
+}
+.Search-Last-list-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  padding: 16px;
+  background: rgba(208, 208, 210, 0.5);
+  border-radius: 8px;
+  margin: 0px 0.625rem;
+}
+
+/* ______________________________________________________________________________________________________________________________
+____________________________________________Search Page //Search Results__________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.Search-Result-Top-Bar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+}
+
+.Search-Result-Top-Bar-spantext {
+  font-weight: 600;
+  color: #383838;
+}
+
+.Search-Result-img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.Search-Result-Product-Reviews-Text {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+  padding: 0px 10px;
+}
+
+.Search-Result-Product-Reviews-Text-border-left {
+  border-left: 2px solid #a7a7a7;
+}
+.Search-result-rating-col p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  margin: 0;
+  padding-right: 10px;
+  margin-top: 0.15rem;
+}
+
+.Search-Result-Product-Heading-Text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+  margin: 0;
+}
+
+.Search-Result-Product-Description-Text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #383838;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.Search-Result-Product-Discount-Price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration-line: line-through;
+  color: #a7a7a7;
+}
+.Search-Result-Product-Price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 54px;
+  color: #f46b5b;
+}
+
+.Search-Result-Add-to-Cart-Button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 8px 16px;
+  color: #fafafa;
+}
+
+.Search-Result-Wishlist-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #383838;
+  margin: 0;
+}
