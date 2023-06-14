@@ -191,7 +191,7 @@ const AddToCart = () => {
                   </div>
                   <div className="col-3 d-flex justify-content-end">
                     <p className="p-0 m-0 Summary-container-total-price">
-                      ${(total + 10).toFixed()}
+                      ${total.toFixed()}
                     </p>
                   </div>
                 </div>
