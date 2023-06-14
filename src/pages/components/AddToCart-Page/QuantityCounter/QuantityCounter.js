@@ -1,23 +1,40 @@
 import React, { useState } from 'react';
 
-function QuantityCounter() {
-  const [quantity, setQuantity] = useState(1);
-
-  const incrementQuantity = () => {
-    setQuantity(quantity + 1);
+function QuantityCounter({carts, setCarts , cart}) {
+  const handleInc = (id) => {
+    const updateCart = carts.map((item) => {
+      if (item.id === id) {
+        return {
+          ...item,
+          quantity: item.quantity + 1,
+        };
+      }
+      return item;
+    });
+    setCarts(updateCart);
+    localStorage.setItem("cart", JSON.stringify(updateCart));
   };
 
-  const decrementQuantity = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
+  const handleDec = (id) => {
+    const updatedCart = carts.map((item) => {
+      if (item.id === id) {
+        return {
+          ...item,
+          quantity: item.quantity - 1,
+        };
+      }
+      return item;
+    });
+
+    setCarts(updatedCart);
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
   };
 
   return (
     <div className='p-0 mt-4'>
-      <button onClick={decrementQuantity} className='minusButton'>-</button>
-      <span className='btn-mid-qty'>{quantity}</span>
-      <button onClick={incrementQuantity} className='plusButton'>+</button>
+      <button onClick={() => handleDec(cart.id)} className='minusButton'>-</button>
+      <span className='btn-mid-qty'>{cart.quantity}</span>
+      <button onClick={() => handleInc(cart.id)} className='plusButton'>+</button>
     </div>
   );
 }
