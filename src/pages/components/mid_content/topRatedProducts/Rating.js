@@ -2,7 +2,7 @@ const Rating = () => {
   return (
     <>
       <div className="d-flex justify-content-center">
-        <p className="rating-product-value me-2">5.0</p>
+        {/* <p className="rating-product-value me-2"></p> */}
         <span style={{ color: "#FFD687" }}>
           <div class="rating">
             <label for="stars-rating-5">

@@ -4,6 +4,41 @@ import Rating from "./Rating";
 import Link from "next/link";
 
 const Topproducts = () => {
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const response = await fetch("https://fakestoreapi.com/products");
+      const data = await response.json();
+      setProducts(data);
+      console.log(data);
+    };
+    fetchProducts();
+  }, []);
+
+  const handleCart = (product, redirect) => {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const isProductExist = cart.find((item) => item.id === product.id);
+    if (isProductExist) {
+      const updateCart = cart.map((item) => {
+        if (item.id === product.id) {
+          return {
+            ...item,
+            quantity: item.quantity + 1,
+          };
+        }
+        return item;
+      });
+      localStorage.setItem("cart", JSON.stringify(updateCart));
+    } else {
+      localStorage.setItem(
+        "cart",
+        JSON.stringify([...cart, { ...product, quantity: 1 }])
+      );
+    }
+    if (redirect) {
+      // Navigate("/");
+    }
+  };
 
   return (
     <>
@@ -17,34 +52,42 @@ const Topproducts = () => {
         </div>
         <div className="row-container">
           <div className="row" id="rowtopprocuts">
-            
-              <div className="col-lg-3 col-md-4 col-sm-12" >
-                <div className="card rounded-card" id="cardtopproductlength">
-                 
+            {products.map((product) => {
+              const { id, title, price, description, category, image } =
+                product;
+              return (
+                <div className="col-lg-4 col-md-4 col-sm-12">
+                  <div className="card rounded-card" id="cardtopproductlength">
+                    <Link
+                      href={`/components/Single_Product/${id}`}
+                      className="">
                       <img
-                        src={''}
+                        src={image}
                         className="card-img-top top-products-img"
                         alt="..."
                         width={313}
                         height={313}
                       />
-                    
-
-                  <div className="card-body text-center">
-                    <p className="product-text mb-0">abc</p>
-                    <p className="product-price-text mb-3">2344</p>
-                    <span>
-                      <Rating />
-                    </span>
-                  </div>
-                  <div className="mb-4">
-                    <Link href="/components/add_to_cart/AddToCart">
-                      <AddToCard />
                     </Link>
+                    <div className="card-body text-center">
+                      <p className="product-text mb-0">{title}</p>
+                      <p className="product-price-text mb-3">${price}</p>
+                      <span>
+                        <Rating />
+                      </span>
+                    </div>
+                    <div className="mb-4">
+                      <button
+                        href="#"
+                        onClick={() => handleCart(product)}
+                        className="btnaddtocard1">
+                        Add to cart
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            
+              );
+            })}
           </div>
         </div>
       </div>
