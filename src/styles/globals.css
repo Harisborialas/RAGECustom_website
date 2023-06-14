@@ -656,6 +656,9 @@ ________________________________________________________________________________
   border-radius: 32px;
   border: 1px solid #a7a7a7;
 }
+/* #lengthofcard{
+  height: 650px;
+} */
 
 .top-products-img {
   padding: 20px;
@@ -666,7 +669,7 @@ ________________________________________________________________________________
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   color: #383838;
 }
@@ -1120,6 +1123,9 @@ ________________________________________________________________________________
   line-height: 59px;
   color: #383838;
   text-align: center;
+}
+.close {
+  cursor: pointer;
 }
 /* .title {
   margin-bottom: 5vh;
@@ -2300,4 +2306,411 @@ ________________________________________________________________________________
   font-size: 16px;
   color: #383838;
   margin: 0;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Check Out Page_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.Checkout-Page-Main-Heading h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #383838;
+}
+
+.check-out-page-numbers p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f46b5b;
+  border: 2px solid #f46b5b;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 5px 20px;
+}
+
+.number-2 p {
+  padding: 6px 18px;
+}
+
+.check-out-page-numbers h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f46b5b;
+  margin: 0;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________CheckOut Page// BuyerInfo_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.Buyer-Info-Page {
+  border-bottom: 1px solid #383838;
+}
+.BuyerInfo-Heading h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.input-field-lable-Buyer-Info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+  padding: 15px 0px;
+}
+
+.custom-input-for-Buyer-Info {
+  opacity: 0.5;
+  border: 1px solid #383838;
+  border-radius: 8px;
+  padding: 6px 20px;
+  font-size: 18px;
+  width: 100%;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________CheckOut Page// BillingInfo_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.CheckOut-BillingInfo-container {
+  width: 100%;
+  padding: 20px;
+  background: #fffefe;
+  border: 1px solid #383838;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+@media (max-width: 576px) {
+  .CheckOut-BillingInfo-container {
+    max-width: 100%;
+  }
+}
+
+.checkout-billinginfo-heading h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.checkout-billing-order-details {
+  border-bottom: 1px solid #383838;
+}
+.checkout-billing-order-details-qty {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.checkout-billing-order-details-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+.checkout-billing-order-details-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+.checkout-billing-order-details-total-amount {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+.checkout-billing-order-details-total-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f46b5b;
+}
+.checkout-billing-order-details-payment h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.button-billing-info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #383838;
+
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #383838;
+  border-radius: 8px;
+}
+
+.button-billing-info.selected {
+  background-color: #383838;
+  color: white;
+}
+
+.btn-billing-info-checkout {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fafafa;
+  background: #f46b5b;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.btn-billing-info-checkout:hover {
+  color: #fafafa;
+  background: #db584a;
+}
+
+.btn-billing-info-back-to-cart h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________My Cart_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.my-cart-page-numbers h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #d0d0d2;
+  margin: 0;
+}
+
+.my-cart-page-numbers p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #d0d0d2;
+  border: 2px solid #d0d0d2;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 5px 20px;
+}
+
+.number-2 p {
+  padding: 6px 18px;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________My Cart //Items_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.items-select-col2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+  margin: 0;
+}
+
+.AddToCart-Items-Row {
+  padding: 20px 0px;
+  border-top: 1px solid #f46b5b;
+  border-bottom: 1px solid #f46b5b;
+}
+
+.items-product-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.items-product-price {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f46b5b;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________My Cart //Item //QuantityCounter_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.minusButton {
+  font-size: 24px;
+  padding: 5px 18px 10px 18px;
+  background: #d0d0d2;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-mid-qty {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f46b5b;
+  padding: 10px 30px;
+}
+
+.plusButton {
+  font-size: 22px;
+
+  color: white;
+  padding: 5px 16px 10px 16px;
+  background: #f46b5b;
+  border-radius: 8px;
+  border: none;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________My Cart // Coupon_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.Coupon-container {
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background: rgba(228, 224, 218, 0.25);
+  border: 1px solid #f46b5b;
+}
+
+.Coupon-container a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Coupon-container-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.Summary-container {
+  width: 100%;
+  padding: 16px 30px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background: white;
+  border: 1px solid #f46b5b;
+}
+
+.Summary-container h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.Summary-container-total {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #a7a7a7;
+}
+
+.Summary-container-total-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f46b5b;
+}
+
+.btn-summary-shopping h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f46b5b;
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________CheckBoxs -- Setting_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.form-check-input:checked {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: #cd574a;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: #cd574a;
+}
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Form-Controler on CLick -- Setting_________________________________________________________________________
+____________________________________________________________________________________________________________________________ */
+
+.form-control:focus {
+  border: #cd574a 1px solid;
+  box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
 }

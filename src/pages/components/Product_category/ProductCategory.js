@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import Categories from "./Categories.js/Categories";
@@ -6,7 +5,9 @@ import Featured from "./Featured_Brand/Featured";
 import ProductList from "./product_list/ProductList";
 import AllCategories from "./all_categories/AllCategories";
 
+
 const ProductCategory = () => {
+
   return (
     <>
       <Navbar />

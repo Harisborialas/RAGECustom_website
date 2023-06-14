@@ -33,7 +33,6 @@ const AddToCart = () => {
     });
     setCarts(updateCart);
     localStorage.setItem("cart", JSON.stringify(updateCart));
-    router.push("/components/add_to_cart/AddToCart");
   };
 
   const handleDec = (id) => {
@@ -49,19 +48,12 @@ const AddToCart = () => {
 
     setCarts(updatedCart);
     localStorage.setItem("cart", JSON.stringify(updatedCart));
-    router.push("/components/add_to_cart/AddToCart");
   };
 
-  // const removeProduct = (id) => {
-  //   const updateCart = carts.filter((item) => item.id !== id);
-  //   localStorage.setItem("cart", JSON.stringify(updateCart));
-  //   router.push("/components/add_to_cart/AddToCart");
-  // };
   const removeProduct = (id) => {
     const updatedCart = carts.filter((item) => item.id !== id);
     setCarts(updatedCart);
     localStorage.setItem("cart", JSON.stringify(updatedCart));
-    router.push("/components/add_to_cart/AddToCart");
   };
 
   if (carts.length === 0) {
@@ -125,7 +117,7 @@ const AddToCart = () => {
                             <div className="col">
                               &euro; {cart?.price}{" "}
                               <span
-                                className="close"
+                                className="close ms-3"
                                 onClick={() => removeProduct(cart.id)}>
                                 &#10005;
                               </span>

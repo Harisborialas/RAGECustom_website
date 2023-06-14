@@ -4,6 +4,7 @@ import Link from "next/link";
 import Blogcollection from "../../mid_content/blog/BlogCollection";
 import Commentsection from "../commentsection/Commentsection";
 import Commentfield from "../commentsection/Commentfield";
+import { FaCalendar, FaComment , FaUserShield, FaFacebookSquare, FaTwitter, FaShareAlt } from "react-icons/fa";
 
 const Singleblogpost = () => {
   return (
@@ -14,26 +15,32 @@ const Singleblogpost = () => {
         </h1>
         <div className="row flex-wrap Single-Blog-Post-Row">
           <div className="col-6 col-md-4 col-lg-3 d-flex">
-            <i
+            {/* <i
               className="fas fa-calendar mx-2 mt-1"
               style={{ color: "#A7A7A7" }}
-            ></i>
+            ></i> */}
+            <FaCalendar color="#A7A7A7" size={24} className="mx-1" />
+            
+            
             <p className="Single-Blog-Post-breadcrumbs">12 June 2021</p>
           </div>
 
           <div className="col-6 col-md-4 col-lg-3 d-flex">
-            <i
+            {/* <i
               className="fas fa-calendar mx-2 mt-1"
               style={{ color: "#A7A7A7" }}
-            ></i>
+            ></i> */}
+            <FaUserShield color="#A7A7A7" size={24} className="mx-1" />
             <p className="Single-Blog-Post-breadcrumbs">by Admin One</p>
           </div>
 
           <div className="col-6 col-md-4 col-lg-3 d-flex">
-            <i
+            {/* <i
               className="fas fa-calendar mx-2 mt-1"
               style={{ color: "#A7A7A7" }}
-            ></i>
+            ></i> */}
+            <FaComment color="#A7A7A7" size={24} className="mx-1" />
+            
             <p className="Single-Blog-Post-breadcrumbs">12 Comments</p>
           </div>
         </div>
@@ -104,23 +111,27 @@ const Singleblogpost = () => {
                 <h1>Share: </h1>
                 <div className="d-flex">
                   <Link href="https://www.facebook.com">
-                    <i
+                    {/* <i
                       className="fab fa-facebook-square mx-2 "
                       style={{ color: "#383838", fontSize: "1.5rem" }}
-                    ></i>
+                    ></i> */}
+                    <FaFacebookSquare color="#383838" size={20} className="mx-2" />
                   </Link>
                   <Link href="https://www.twitter.com">
-                    <i
+                    {/* <i
                       className="fab fa-twitter mx-2 "
                       style={{ color: "#383838", fontSize: "1.5rem" }}
-                    ></i>
+                    ></i> */}
+                    <FaTwitter color="#383838" size={20} className="mx-2" />
                   </Link>
 
                   <Link href="https://www.twitter.com">
-                    <i
+                    {/* <i
                       className="fas fa-share mx-2 "
                       style={{ color: "#383838", fontSize: "1.5rem" }}
-                    ></i>
+                    ></i> */}
+                    <FaShareAlt color="#383838" size={20} className="mx-2" />
+                   
                   </Link>
                 </div>
               </div>
