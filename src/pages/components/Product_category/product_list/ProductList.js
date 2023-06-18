@@ -54,7 +54,7 @@ const ProductList = () => {
             return (
               <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="card rounded-card" id="lengthofcard">
-                  <Link href="/components/Single_Product/SingleProduct">
+                  <Link href={`/components/Single_Product/${id}`}>
                     <img
                       src={image}
                       className="card-img-top top-products-img"

@@ -56,7 +56,7 @@ const Topproducts = () => {
               const { id, title, price, description, category, image } =
                 product;
               return (
-                <div className="col-lg-4 col-md-4 col-sm-12">
+                <div className="col-lg-4 col-md-4 col-sm-12 mb-3">
                   <div className="card rounded-card" id="cardtopproductlength">
                     <Link
                       href={`/components/Single_Product/${id}`}
@@ -66,7 +66,7 @@ const Topproducts = () => {
                         className="card-img-top top-products-img"
                         alt="..."
                         width={313}
-                        height={313}
+                        height={413}
                       />
                     </Link>
                     <div className="card-body text-center">
@@ -76,7 +76,7 @@ const Topproducts = () => {
                         <Rating />
                       </span>
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-4 d-flex justify-content-center align-items-center">
                       <button
                         href="#"
                         onClick={() => handleCart(product)}

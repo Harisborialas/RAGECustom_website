@@ -1,5 +1,16 @@
+/* ____________________________________________________________________________________________________________________________________________________
+_________________________________________________________________Nav_Bar //1st___________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________ */
+
 #uppernav {
   border-bottom: 1px solid black;
+}
+
+.first_nav_icons {
+  color: rgb(161, 161, 161);
+}
+.first_nav_icons_2 {
+  color: #f46b5b;
 }
 .first_nav {
   font-family: "Poppins";
@@ -10,12 +21,11 @@
   color: #383838;
   margin-left: 12px;
 }
-.first_nav_icons {
-  color: rgb(161, 161, 161);
-}
-.first_nav_icons_2 {
-  color: #f46b5b;
-}
+
+/* ____________________________________________________________________________________________________________________________________________________
+_________________________________________________________________Nav_Bar //2nd___________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________ */
+
 .navbar-brand {
   font-family: "Poppins";
   font-style: normal;
@@ -28,12 +38,6 @@
   width: 648px;
   height: 48px;
 }
-/* .form-control {
-  background: rgba(208, 208, 210, 0.25);
-  border-radius: 8px;
-  width: 648px;
-  height: 48px;
-} */
 #searchicon {
   display: flex;
   flex-direction: row;
@@ -62,18 +66,12 @@
   border-radius: 8px;
 }
 .sec_nav_icons {
-  margin-top: 8px;
   color: black;
-  justify-content: end;
-}
-.sec_nav_btn {
-  margin-top: 6px;
-  justify-content: end;
 }
 #btn_signupnav {
   padding: 8px;
   gap: 8px;
-  width: 149px;
+  width: 100%;
   height: 50px;
   background: #f46b5b;
   border-radius: 8px;
@@ -94,6 +92,7 @@
   line-height: 40px;
   text-decoration-line: underline;
   color: #f46b5b;
+  margin: 0;
 }
 /* ____________________________________________________________________________________________________________________________________________________
 _________________________________________________________________Carousel___________________________________________________________________________________
@@ -487,6 +486,10 @@ ________________________________________________________________________________
 ______________________________________________________News Letter_____________________________________________________________________-
 ___________________________________________________________________________________________________________________________- */
 
+.News-Letter-col1 {
+  padding: 50px 0px;
+  padding-left: 80px;
+}
 .newsletter-text {
   font-family: "Montserrat";
   font-style: normal;
@@ -513,7 +516,17 @@ ________________________________________________________________________________
   line-height: 27px;
   color: #fafafa;
   background: #f46b5b;
-  border-radius: 16px;
+  border-radius: 8px;
+}
+
+.newsletter-input::placeholder{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #A7A7A7;
+opacity: 0.5;
 }
 /* _______________________________________________________________________________________________________________________________________
 _____________________________________________________Flash Sale__________________________________________________________________________________
@@ -642,12 +655,25 @@ ________________________________________________________________________________
   color: #383838;
 }
 #cardtopproductlength {
-  height: 700px;
+  height: 750px;
 }
 .row-container {
   width: 100%;
-  overflow: auto;
+  overflow-x: scroll;
+  /* overflow-y: scroll; */
 }
+
+.row-container::-webkit-scrollbar {
+  height: 2px;
+}
+
+.row-container::-webkit-scrollbar-thumb {
+  background-color: #f46b5b;
+}
+
+/* .row-container::-webkit-scrollbar-track {
+  background-color: #d0d0d2;
+} */
 
 #rowtopprocuts {
   flex-wrap: nowrap;
@@ -661,7 +687,7 @@ ________________________________________________________________________________
 } */
 
 .top-products-img {
-  padding: 20px;
+  padding: 50px;
   border-radius: 12%;
 }
 
@@ -798,6 +824,10 @@ ________________________________________________________________________________
   line-height: 21px;
   color: #383838;
 }
+.overflow-wrap {
+  overflow-wrap: break-word;
+}
+
 /* ___________________________________________________________________________________________________________________________________________-
 ___________________________________________________________About Page________________________________________________________________________________-
 ___________________________________________________________________________________________________________________________________________- */
@@ -1090,8 +1120,7 @@ ________________________________________________________________________________
   justify-content: center;
   align-items: center;
   padding: 16px;
-  gap: 16px;
-  width: 180px;
+  width: 70%;
   height: 60px;
   background: #f46b5b;
   border-radius: 8px;
@@ -1904,6 +1933,11 @@ __________________________________________________Form-Control Issue____________
 _____________________________________________Login Form___________________________________________________________________________
 ____________________________________________________________________________________________________________________________ */
 
+.login-body {
+  padding: 40px 20px;
+  background-color: #d0d0d2;
+}
+
 .login-form-section-container {
   position: relative;
   display: flex;
@@ -1911,7 +1945,7 @@ ________________________________________________________________________________
   width: 100%;
   overflow: hidden;
   padding: 25px;
-  background: #fafafa;
+  background: #fffefe;
   border: 1px solid #d0d0d2;
   border-radius: 32px;
 }
@@ -1943,13 +1977,13 @@ ________________________________________________________________________________
   margin-top: 20px;
 }
 
-.inputField {
+/* .inputField {
   border: 1px solid #d0d0d2;
   border-radius: 8px;
   width: 100%;
-}
+} */
 
-.inputLable {
+/* .inputLable {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -1957,9 +1991,9 @@ ________________________________________________________________________________
   line-height: 27px;
   color: #383838;
   padding: 15px 0px;
-}
+} */
 
-.loginButton {
+/* .loginButton {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -1971,11 +2005,79 @@ ________________________________________________________________________________
   width: 100%;
   padding: 15px 5px;
   text-transform: capitalize;
+} */
+
+/* .loginButton:hover {
+  background: #cd574a;
+} */
+
+.input-field-lable-login-page {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
 }
 
-.loginButton:hover {
-  background: #cd574a;
+.icon-container-login-page {
+  position: relative;
+  display: inline-block;
 }
+
+.icon-login-page {
+  position: absolute;
+  top: 60%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #f46b5b;
+}
+
+.icon-login-page-password {
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #f46b5b;
+  cursor: pointer;
+  z-index: 9999;
+}
+.input-group {
+  border-radius: 8px;
+}
+.custom-input-for-login-page {
+  margin-top: 10px;
+  background: #fffefe;
+  opacity: 0.5;
+  border: 1px solid #d0d0d2;
+  border-radius: 8px !important;
+  padding: 10px 10px 10px 50px;
+  font-size: 18px;
+}
+
+.btn-Login-loginbtn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fafafa;
+  background: #f46b5b;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.btn-Login-loginbtn:hover {
+  color: #fafafa;
+  background: #db584a;
+}
+
 .login-forget-section {
   padding: 20px 0px;
   width: 100%;
@@ -2713,4 +2815,173 @@ ________________________________________________________________________________
 .form-control:focus {
   border: #cd574a 1px solid;
   box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Media queries _________________________________________________________________________
+_______________________________________For Screen Max-Width 991________________________________________________________________ */
+
+@media screen and (max-width: 991.5px) {
+  /* 1st Nav Component*/
+  .first_nav {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  /* 2nd Nav Component*/
+  .SecNav-LastRow {
+    padding-top: 15px;
+    justify-content: center !important;
+  }
+
+  /* Footer// Newsletter Component*/
+
+  .newsletter-text {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .newsletter-text-paragraph {
+    font-size: 14px;
+  }
+
+  .newsletter-btn {
+    font-size: 18px;
+    border-radius: 8px;
+  }
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Media queries _________________________________________________________________________
+_______________________________________For Screen Max-Width 768________________________________________________________________ */
+
+@media screen and (max-width: 767.5px) {
+  /* 1st Nav Component*/
+
+  .FirstNav-Col-Frist {
+    justify-content: center !important;
+  }
+  .FirstNav-Col-Sec {
+    margin-top: 20px;
+    justify-content: center !important;
+  }
+  .FirstNav-Col-Sec p {
+    margin-bottom: 0px;
+  }
+
+  /* 2nd Nav Component*/
+
+  .SecNav-Logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  .SecNav-Search-Section {
+    justify-content: center;
+  }
+  .SecNav-LastRow {
+    display: flex;
+    padding-top: 15px;
+    justify-content: center !important;
+  }
+    /* Footer// Newsletter Component*/
+
+  .News-Letter-col1 {
+    padding: 50px;
+  }
+  .newsletter-text {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .newsletter-text-paragraph {
+    font-size: 16px;
+    line-height:25px;
+  }
+
+  .newsletter-btn {
+    font-size: 16px;
+  }
+}
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Media queries _________________________________________________________________________
+_______________________________________For Screen Max-Width 500.5________________________________________________________________ */
+
+
+@media screen and (max-width: 400.5px) {
+
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Media queries _________________________________________________________________________
+_______________________________________For Screen Max-Width 400.5________________________________________________________________ */
+
+@media screen and (max-width: 400.5px) {
+  /* 1st Nav Component*/
+
+  .first_nav {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .first_nav_icons img {
+    width: 20px;
+    height: auto;
+  }
+  .FirstNav-Col-Sec-Image {
+    margin-top: 4px;
+    width: 20px;
+    height: auto;
+  }
+    /* Footer// Newsletter Component*/
+  .News-Letter-col1 {
+    padding: 30px;
+  }
+  .newsletter-text {
+    font-size: 28px;
+  }
+  .newsletter-text-paragraph {
+    font-size: 14px;
+  }
+  .newsletter-btn {
+    font-size: 14px;
+  }
+  .newsletter-input::placeholder{
+    font-size: 14px;
+  }
+}
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Media queries _________________________________________________________________________
+_______________________________________For Screen Max-Width 350________________________________________________________________ */
+
+@media screen and (max-width: 350.5px) {
+  .FirstNav-Col-Sec p {
+    margin-right: 10px !important;
+  }
+  .first_nav {
+    font-size: 12px;
+    margin-left: 3px;
+  }
+  .first_nav_icons img {
+    width: 18px;
+    height: auto;
+  }
+  .FirstNav-Col-Sec-Image {
+    margin-top: 5px;
+    width: 15px;
+    height: auto;
+  }
+    /* Footer// Newsletter Component*/
+  .newsletter-text {
+    font-size: 24px;
+  }
+  .newsletter-text-paragraph {
+    font-size: 12px;
+  }
+  .newsletter-btn {
+    font-size: 12px;
+  }
+  .newsletter-input::placeholder{
+    font-size: 12px;
+  }
 }

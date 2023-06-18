@@ -7,7 +7,7 @@ const ThirdNav = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler right-position"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -18,16 +18,16 @@ const ThirdNav = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link className="nav-link active" aria-current="page" href="/">
+              <Link className="nav-link active pe-3" aria-current="page" href="/">
                 Home
               </Link>
-              <Link className="nav-link mx-3" href="/components/About-content/About">
+              <Link className="nav-link pe-3" href="/components/About-content/About">
                 About
               </Link>
-              <Link className="nav-link " href="/components/Product_category/ProductCategory">
+              <Link className="nav-link pe-3" href="/components/Product_category/ProductCategory">
                 Product
               </Link>
-              <Link className="nav-link mx-3" href="/components/Blog-content/Blog">
+              <Link className="nav-link pe-3" href="/components/Blog-content/Blog">
                 Blog
               </Link>
               <Link className="nav-link " href="/components/Contact-us/ContactUs">

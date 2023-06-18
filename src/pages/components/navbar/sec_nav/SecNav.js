@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaSearch } from "react-icons/fa";
@@ -5,13 +6,13 @@ const SecNav = () => {
   return (
     <>
       <div className="container-fluid mt-4">
-        <div className="row">
-          <div className="col-lg-2 col-md-2 col-sm-4">
+        <div className="row d-flex align-items-center">
+          <div className="col-lg-2 col-md-4 col-12 SecNav-Logo">
             <Link className="navbar-brand" href="/">
               Tronix
             </Link>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-8 mt-2 d-flex">
+          <div className="col-lg-6 col-md-8 col-12 SecNav-Search-Section d-flex">
             <div className="sec_nav_icon_1">
               <img src="/pics_svgs/Dashboard.svg" alt="" />
             </div>
@@ -33,30 +34,50 @@ const SecNav = () => {
               </div>
             </form>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-end mt-2">
-            <Link
-              href="/components/AddToCart-Page/AddToCart"
-              className="sec_nav_icons me-4">
-              <img
-                src="/pics_svgs/ShoppingBag.svg"
-                alt=""
-                width={32}
-                height={32}
-              />
-            </Link>
-            <a href="/" className="sec_nav_icons me-5" target="_blank">
-              <img src="/pics_svgs/email-2.svg" alt="" width={32} height={32} />
-            </a>
-            <Link
+          <div className="col-lg-4 col-md-12 col-12 d-flex align-items-center justify-content-end SecNav-LastRow">
+            <div className="row d-flex align-items-center justify-content-end">
+              <div className="col-2">
+                <Link
+                  href="/components/AddToCart-Page/AddToCart"
+                  className="sec_nav_icons pe-4"
+                >
+                  <Image
+                    src="/pics_svgs/ShoppingBag.svg"
+                    alt=""
+                    width={32}
+                    height={32}
+                  />
+                </Link>
+              </div>
+              <div className="col-2">
+                <Link href="/" className="sec_nav_icons pe-5" target="_blank">
+                  <Image
+                    src="/pics_svgs/email-2.svg"
+                    alt=""
+                    width={32}
+                    height={32}
+                  />
+                </Link>
+              </div>
+              <div className="col-3 d-flex align-items-center">
+              <Link
               href="/components/Login-Page/Login"
-              className="sec_nav_btn me-4">
+              className="sec_nav_btn pe-4"
+            >
               <p className="signin">Sign In</p>
             </Link>
-            <Link href="/components/MyAccount/AccountDetails/AccountDetails">
+              </div>
+              <div className="col-5">
+              <Link href="/components/MyAccount/AccountDetails/AccountDetails">
               <button className="btn text-white" id="btn_signupnav">
                 Sign Up
               </button>
             </Link>
+              </div>
+            </div>
+
+            
+           
           </div>
         </div>
       </div>
