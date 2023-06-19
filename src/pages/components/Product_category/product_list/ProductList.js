@@ -48,13 +48,12 @@ const ProductList = () => {
       </div>
       <div className="row-container">
         <div className="row" id="rowtopprocuts">
-          {" "}
           {products.map((product) => {
             const { id, title, price, description, category, image } = product;
             return (
               <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="card rounded-card" id="lengthofcard">
-                  <Link href={`/components/Single_Product/${id}`}>
+                <Link href={`/components/Single_Product/${id}`}>
                     <img
                       src={image}
                       className="card-img-top top-products-img"
@@ -71,11 +70,11 @@ const ProductList = () => {
                       <Rating />
                     </span>
                   </div>
-                  <div className="mb-4">
+                  <div className="mb-4 d-flex justify-content-center">
                     <button
                       href="#"
                       onClick={() => handleCart(product)}
-                      className="btn">
+                      className="btnaddtocard1">
                       Add to cart
                     </button>
                   </div>

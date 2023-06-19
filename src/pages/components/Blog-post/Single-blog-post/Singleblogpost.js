@@ -14,18 +14,14 @@ const Singleblogpost = () => {
           6 Best Smartphone for e-Sport Pro Player
         </h1>
         <div className="row flex-wrap Single-Blog-Post-Row">
-          <div className="col-6 col-md-4 col-lg-3 d-flex">
-            {/* <i
-              className="fas fa-calendar mx-2 mt-1"
-              style={{ color: "#A7A7A7" }}
-            ></i> */}
+          <div className="col-6 col-sm-4 col-xl-3 d-flex align-items-center">
             <FaCalendar color="#A7A7A7" size={24} className="mx-1" />
             
             
             <p className="Single-Blog-Post-breadcrumbs">12 June 2021</p>
           </div>
 
-          <div className="col-6 col-md-4 col-lg-3 d-flex">
+          <div className="col-6 col-sm-4 col-xl-3 d-flex align-items-center">
             {/* <i
               className="fas fa-calendar mx-2 mt-1"
               style={{ color: "#A7A7A7" }}
@@ -34,7 +30,7 @@ const Singleblogpost = () => {
             <p className="Single-Blog-Post-breadcrumbs">by Admin One</p>
           </div>
 
-          <div className="col-6 col-md-4 col-lg-3 d-flex">
+          <div className="col-6 col-sm-4  col-xl-3 d-flex align-items-center">
             {/* <i
               className="fas fa-calendar mx-2 mt-1"
               style={{ color: "#A7A7A7" }}
@@ -99,15 +95,15 @@ const Singleblogpost = () => {
           </p>
         </div>
         <div className="single-blog-post-tags-container mb-5 px-3">
-          <div className="row d-flex align-items-center">
+          <div className="row d-flex align-items-center ">
             <div className="col-12 col-md-6 mt-1">
-              <div className="single-blog-post-tags-heading d-flex">
+              <div className="single-blog-post-tags-heading d-flex Single-Blog-Post-Tag-Section">
                 <h1>Tags: </h1>
                 <p className="mx-2"> Tips, Blog, Tech</p>
               </div>
             </div>
             <div className="col-12 col-md-6 mt-1">
-              <div className="single-blog-post-tags-heading-share d-flex justify-content-end">
+              <div className="single-blog-post-tags-heading-share d-flex justify-content-end Single-Blog-Post-Tag-Section">
                 <h1>Share: </h1>
                 <div className="d-flex">
                   <Link href="https://www.facebook.com">

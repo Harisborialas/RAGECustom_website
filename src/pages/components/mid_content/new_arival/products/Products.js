@@ -6,7 +6,7 @@ const Products = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 p-2">
             <div className="card" id="card">
               <div className="new-badge">
                 <img src="/pics_svgs/label.svg" alt="" width={64} height={64} />
@@ -22,8 +22,8 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="card">
+          <div className="col-lg-4 col-md-6 col-sm-12 p-2">
+            <div className="card"  id="card">
               <div className="new-badge">
                 <img src="/pics_svgs/label.svg" alt="" width={64} height={64} />
               </div>
@@ -38,8 +38,8 @@ const Products = () => {
               </div>
             </div>
           </div>{" "}
-          <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="card">
+          <div className="col-lg-4 col-md-6 col-sm-12 p-2">
+            <div className="card"  id="card">
               <div className="new-badge">
                 <img src="/pics_svgs/label.svg" alt="" width={64} height={64} />
               </div>

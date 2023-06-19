@@ -13,7 +13,7 @@ const Blogpost = () => {
         <div className="row mt-5 mb-3">
           <div className="col-lg-12">
             <div className="blogpost-heading-col d-flex justify-content-center">
-              <div className="w-50 text-center">
+              <div className="Blog-Main-Section-Adjust-Width text-center">
                 <h1 className="blogpost-heading-text">Blog Post</h1>
                 <p className="blogpost-paragraph-text mt-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -25,10 +25,10 @@ const Blogpost = () => {
         </div>
 
         <div className="row mt-5">
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-4 col-lg-3 p-0">
             <Filtersection />
           </div>
-          <div className="col-12 col-md-9 ">
+          <div className="col-12 col-md-8 col-lg-9 ">
             <Singleblogpost />
           </div>
         </div>

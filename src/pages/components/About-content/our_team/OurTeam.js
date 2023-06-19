@@ -4,7 +4,7 @@ const OurTeam = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 Our-Team-Cols">
           <div className="card" id="card">
             <div className="new-badge"></div>
             <img
@@ -18,7 +18,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 Our-Team-Cols">
           <div className="card">
             <div className="new-badge"></div>
             <img
@@ -32,7 +32,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 Our-Team-Cols">
           <div className="card">
             <div className="new-badge"></div>
             <img
@@ -46,7 +46,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 Our-Team-Cols">
           <div className="card">
             <div className="new-badge"></div>
             <img

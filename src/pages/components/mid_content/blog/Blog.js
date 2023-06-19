@@ -13,7 +13,9 @@ const Blog = () => {
           </div>
         </div>
       </div>
+      <div className="Blog-Collection-Component">
       <Blogcollection />
+      </div>
     </>
   );
 };

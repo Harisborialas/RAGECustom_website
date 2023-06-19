@@ -9,14 +9,16 @@ const OurCollection = () => {
             <h1 className="mt-5 text-center" id="new-arrival-heading-text">
               Our Collections
             </h1>
+            <div className="d-flex justify-content-center">
             <p className="mt-4 new_arrival_paragraph_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt.
             </p>
+            </div>
           </div>
         </div>
-        <div className="row mt-4">
-          <div className="col-lg-6 col-12">
+        <div className="row pt-4 OurCollection-Row2">
+          <div className="col-lg-6 col-12 p-3">
             <div className="card" id="ourcollection-1">
               <div className="card-body card-collection">
                 <h5 className="card-title collection-text">PC Gaming Collection</h5>
@@ -27,7 +29,7 @@ const OurCollection = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-12">
+          <div className="col-lg-6 col-12 p-3">
             <div className="card" id="ourcollection-1">
               <div className="card-body card-collection">
                 <h5 className="card-title collection-text">Camera Collection</h5>

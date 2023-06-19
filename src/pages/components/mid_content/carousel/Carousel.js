@@ -5,7 +5,7 @@ const Carousel = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 Carosel-Main-Container-Col">
             <div id="carouselExampleCaptions" className="carousel slide">
               <div className="carousel-indicators">
                 <button
@@ -31,7 +31,7 @@ const Carousel = () => {
                   <div className="carousel-caption">
                     <div className="container">
                       <div className="row">
-                        <div className="col-12">
+                        <div className="col-12 Carousel-Main-Col1">
                           <h5 id="first_slide_label">
                             Better Devices for Better Life
                           </h5>

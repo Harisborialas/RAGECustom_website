@@ -3,20 +3,22 @@ import React from "react";
 const FeaturedProducts = () => {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-5 p-3">
         <div className="row">
           <div className="col-12">
             <h1 className="mt-5 text-center" id="new-arrival-heading-text">
               Featured Product
             </h1>
+            <div className="d-flex justify-content-center">
             <p className="mt-4 new_arrival_paragraph_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br>{" "}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt.
             </p>
+            </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-6 col-12">
+          <div className="col-lg-6 col-12 FeaturedProduct-Row1-Container">
             <div className="card" id="card_feature">
               <h3 className="card-title text-center mt-2">
                 Wireless Microphone
@@ -49,9 +51,9 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-12">
-            <div className="card mb-3" id="smallcards">
-              <div className="row g-0">
+          <div className="col-lg-6 col-12 FeaturedProduct-Row2">
+            <div className="card mb-3 " id="smallcards">
+              <div className="row g-0 ">
                 <div className="col-md-4" id="card-col-4"></div>
                 <div className="col-md-8">
                   <div className="card-body">

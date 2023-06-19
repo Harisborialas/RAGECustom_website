@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="row py-4 mt-5 mb-2">
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6 p-2">
               <h1 className="footer-heading-text">Tronix</h1>
               <p className="footer-paragraph-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -33,7 +33,7 @@ const Footer = () => {
                 />
               </div>
             </div>
-            <div className="col-4 col-lg-2">
+            <div className="col-4 col-lg-2 p-2">
               <h1 className="menu-footer-heading">Company</h1>
               <div>
                 <nav className="nav flex-column footermenu">
@@ -55,7 +55,7 @@ const Footer = () => {
                 </nav>
               </div>
             </div>
-            <div className="col-4 col-lg-2 ">
+            <div className="col-4 col-lg-2 p-2">
               <h1 className="menu-footer-heading">Information</h1>
               <div>
                 <nav className="nav flex-column footermenu">
@@ -74,8 +74,8 @@ const Footer = () => {
                 </nav>
               </div>
             </div>
-            <div className="col-4 col-lg-2 ">
-              <h1 className="menu-footer-heading mb-4">Contact</h1>
+            <div className="col-4 col-lg-2 p-2">
+              <h1 className="menu-footer-heading ">Contact</h1>
               <div className="contactus-footer">
                 <img
                   src="/pics_svgs/phone.svg"
@@ -97,12 +97,12 @@ const Footer = () => {
           </div>
 
           <div className="row mt-5 ">
-            <div className="col-md-6">
+            <div className="col-md-6 footer-copyright-section">
               <p className="footer-copyright-text">
                 Copyright © 2021 Tronix. All Right Reseved
               </p>
             </div>
-            <div className="col-md-6 d-flex justify-content-end">
+            <div className="col-md-6 d-flex justify-content-end footer-copyright-section">
               <div>
                 <img
                   src="/pics_svgs/payment.svg"

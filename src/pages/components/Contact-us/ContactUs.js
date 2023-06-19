@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <>
       <Navbar />
-      <div className="container p-2">
+      <div className="container p-2 Contact-Us-Main-Container">
         <h1 className="Contact-us-main-heading">Contact Us</h1>
         <p className="Contact-us-main-paragraph">
           Learn more about our products and services to get a better experience
@@ -18,10 +18,10 @@ const ContactUs = () => {
           third parties.
         </p>
         <div className="row py-3">
-            <div className="col-12 col-md-7">
+            <div className="col-12 col-md-7 py-3">
                 <Contactusformfields />
                 </div>
-                <div className="col-12 col-md-5">
+                <div className="col-12 col-md-5 py-3">
                 <Contactusdetails />
                 </div>
         </div>

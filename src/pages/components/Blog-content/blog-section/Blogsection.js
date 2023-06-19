@@ -16,7 +16,7 @@ const Blogsection = () => {
   return (
     <>
       <div className="row mb-4">
-        <div className="col-12 col-md-4 mb-3">
+        <div className="col-12 col-md-6 col-lg-4 pb-3 Blog-Section-Col-Padding-Adjust ">
           <Link
             href="/components/Blog-post/Blogpost"
             className="Link-blog-section">
@@ -41,7 +41,7 @@ const Blogsection = () => {
             </div>
           </Link>
         </div>
-        <div className="col-12 col-md-4 mb-3">
+        <div className="col-12 col-md-6 col-lg-4 pb-3 Blog-Section-Col-Padding-Adjust">
           <div className="card rounded shadow" id="">
             <img
               src="/pics_svgs/placeholder.svg"
@@ -62,7 +62,7 @@ const Blogsection = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4 mb-3">
+        <div className="col-12 col-md-6 col-lg-4 pb-3 Blog-Section-Col-Padding-Adjust">
           <div className="card rounded shadow" id="">
             <img
               src="/pics_svgs/placeholder.svg"
@@ -83,9 +83,9 @@ const Blogsection = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="row mb-4">
-        <div className="col-12 col-md-4 mb-3">
+      
+      
+        <div className="col-12 col-md-6 col-lg-4 pb-3 Blog-Section-Col-Padding-Adjust">
           <div className="card rounded shadow" id="">
             <img
               src="/pics_svgs/placeholder.svg"
@@ -106,7 +106,7 @@ const Blogsection = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4 mb-3">
+        <div className="col-12 col-md-6 col-lg-4 pb-3 Blog-Section-Col-Padding-Adjust">
           <div className="card rounded shadow" id="">
             <img
               src="/pics_svgs/placeholder.svg"
@@ -127,7 +127,7 @@ const Blogsection = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4 mb-3">
+        <div className="col-12 col-md-6 col-lg-4 pb-3 Blog-Section-Col-Padding-Adjust">
           <div className="card rounded shadow" id="">
             <img
               src="/pics_svgs/placeholder.svg"
@@ -148,7 +148,7 @@ const Blogsection = () => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
 
       <nav>
         <ul className="pagination justify-content-center">

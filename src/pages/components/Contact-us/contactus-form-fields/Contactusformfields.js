@@ -47,7 +47,7 @@ const Contactusformfields = () => {
             </div>
           </form>
           <div className="row py-3 d-flex align-items-center">
-            <div className="col-12 col-md-6">
+            <div className="col-8 col-md-8">
             <div className="form-check form-check-inline">
       <input className="form-check-input checkbox-lg" type="checkbox" id="termsCheckbox" />
       <label className="form-check-label" htmlFor="termsCheckbox">
@@ -55,7 +55,7 @@ const Contactusformfields = () => {
       </label>
     </div>
                 </div>
-                <div className="col-6 col-md-6 d-flex justify-content-end">
+                <div className="col-4 col-md-4 p-0 d-flex justify-content-end">
                 <button type="submit" className="btn btn-submit-contactus-form">
         Submit
       </button>
