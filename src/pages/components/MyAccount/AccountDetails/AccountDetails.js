@@ -8,13 +8,13 @@ const AccountDetails = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container py-3">
         <div className="Account-Details-form-section-container">
           <div className="row w-100">
-            <div className="col-md-3">
+            <div className="col-md-3 pe-1 p-0">
               <MyProfileSideBar />
             </div>
-            <div className="col-md-9 AccountDetails-Side-Bar">
+            <div className="col-md-9 p-0 ps-1 AccountDetails-Side-Bar">
               <div className="mx-4 ">
                 <h1 className="Account-Details-Heading">Account Details</h1>
                 <p className="Account-Details-Paragraph">
@@ -56,7 +56,8 @@ const AccountDetails = () => {
                       className="form-control custom-input-for-contactus"
                     />
                   </div>
-                  <div className="col-12 col-md-6 py-3">
+                  <div className="col-12 mid-accunt-details-spacing"></div>
+                  <div className="col-12 col-md-6 py-1">
                     <label
                       className="input-field-lable-contactus"
                       htmlFor="emailInput"
@@ -69,7 +70,7 @@ const AccountDetails = () => {
                       className="form-control custom-input-for-contactus"
                     />
                   </div>
-                  <div className="col-12 col-md-6 py-3">
+                  <div className="col-12 col-md-6 py-1">
                     <label
                       className="input-field-lable-contactus"
                       htmlFor="nameInput"

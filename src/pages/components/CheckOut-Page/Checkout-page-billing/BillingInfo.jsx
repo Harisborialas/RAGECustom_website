@@ -110,7 +110,7 @@ const BillingInfo = () => {
           <div className="col-12 checkout-billing-order-details-payment">
             <h1>Payment</h1>
           </div>
-          <div className="col-12 px-0 py-3">
+          <div className="col-12 px-0 py-3 checkout-billing-order-details-payment-method">
             <div className="button-group ">
               <button
                 className={`button-billing-info ${

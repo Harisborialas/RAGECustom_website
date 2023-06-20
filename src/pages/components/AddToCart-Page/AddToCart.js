@@ -49,17 +49,17 @@ const AddToCart = () => {
             </div>
           </div>
         </div>
-        <div className="row py-3">
+        <div className="row py-3 d-flex justify-content-center">
           <div className="col-5">
-            <div className="text-center d-flex justify-content-end align-items-center check-out-page-numbers">
+            <div className="text-center d-flex justify-content-end align-items-center check-out-page-numbers ">
               <p>1</p>
               <Link href="/components/AddToCart-Page/AddToCart">
                 <h2>Cart</h2>
               </Link>
             </div>
           </div>
-          <div className="col-2 d-flex justify-content-center align-items-center">
-            <div className="text-center ">
+          <div className="col-2 d-flex justify-content-center align-items-center p-0">
+            <div className="text-center Add-To-Cart-Line-Img">
               <Image
                 src="/pics_svgs/Line2.svg"
                 alt="Description of the image"
@@ -68,7 +68,7 @@ const AddToCart = () => {
               />
             </div>
           </div>
-          <div className="col-5">
+          <div className="col-5 p-0">
             <div className="text-center d-flex justify-content-start align-items-center my-cart-page-numbers number-2 ">
               <p>2</p>
               <Link href="/components/CheckOut-Page/Checkout">
@@ -79,7 +79,7 @@ const AddToCart = () => {
         </div>
 
         <div>
-          <div className="row">
+          <div className="row Add-To-Cart-Main-Row-1">
             <div className="col-12 col-md-7">
               <div>
                 <div className="row mb-4">
@@ -111,13 +111,11 @@ const AddToCart = () => {
                         </div>
                       </div>
                       <div className="col-3 px-2">
-                        <div>
+                        <div className="Add-To-Cart-Responsive-Image">
                           <img
                             src={cart.image}
                             alt="Description of the image"
-                            layout="responsive"
-                            width={180}
-                            height={180}
+                            className="img-fluid"
                           />
                         </div>
                       </div>
@@ -129,7 +127,7 @@ const AddToCart = () => {
                             </h1>
                           </div>
                         </div>
-                        <div className="row py-3 px-4 d-flex align-items-center">
+                        <div className="row py-3 px-4 d-flex align-items-center Add-To-Cart-Price-responsive">
                           <div className="col-9 px-4">
                             <div className="row p-0">
                               <p className="items-product-price p-0">
@@ -145,7 +143,7 @@ const AddToCart = () => {
                             </div>
                           </div>
 
-                          <div className="col-3 d-flex justify-content-end">
+                          <div className="col-3 d-flex justify-content-end Add-To-Cart-Cross-Img">
                             <Image
                               src="/pics_svgs/cross.svg"
                               alt="Description of the image"
@@ -161,7 +159,7 @@ const AddToCart = () => {
                 })}
               </div>
             </div>
-            <div className="col-12 col-md-4 py-5 ms-5">
+            <div className="col-12 col-md-4 py-5 ms-5 Add-To-Cart-Summary-Col">
               <div className="Coupon-container">
                 <div className="row">
                   <div className="col-12 d-flex justify-content-center align-items-center">

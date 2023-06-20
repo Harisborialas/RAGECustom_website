@@ -24,8 +24,8 @@ const SearchResult = () => {
   return (
     <>
       <div className="">
-        <div className="row d-flex">
-          <div className="col-12 col-md-6">
+        <div className="row d-flex Search-Results-Mobile-Responsive">
+          <div className="col-12 col-md-6 Search-Results-SortBy">
             <div className="Search-Result-Top-Bar">
               <p>
                 Viewing{" "}
@@ -38,7 +38,7 @@ const SearchResult = () => {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-6 d-flex justify-content-end">
+          <div className="col-12 col-md-6 d-flex justify-content-end Search-Results-SortBy">
             <div>
               <SortByDropdown />
             </div>
@@ -56,7 +56,110 @@ const SearchResult = () => {
                 className="Search-Result-img-fluid rounded d-flex justify-content-center"
               />
             </div>
-            <div className="col-12 col-md-8 ">
+            <div className="col-12 col-md-8 Search-Results-Results-Responsive">
+              <div className="row  ">
+                <div className="col-12 d-flex align-items-center">
+                  <div className="Search-result-rating-col ">
+                    <p>5.0</p>
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <FaStar
+                      color="#FFD687"
+                      size={24}
+                      style={{ paddingRight: "5px" }}
+                    />
+                    <FaStar
+                      color="#FFD687"
+                      size={24}
+                      style={{ paddingRight: "5px" }}
+                    />
+                    <FaStar
+                      color="#FFD687"
+                      size={24}
+                      style={{ paddingRight: "5px" }}
+                    />
+                    <FaStar
+                      color="#FFD687"
+                      size={24}
+                      style={{ paddingRight: "5px" }}
+                    />
+                    <FaStar
+                      color="#FFD687"
+                      size={24}
+                      style={{ paddingRight: "5px" }}
+                    />
+                  </div>
+                  <div>
+                    <p className="Search-Result-Product-Reviews-Text">
+                      Review (12)
+                    </p>
+                  </div>
+                  <div className="Search-Result-Product-Reviews-Text-border-left">
+                    <p className="Search-Result-Product-Reviews-Text">
+                    Sold 99
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                  <h3 className="Search-Result-Product-Heading-Text">
+                    USB Speaker Portable
+                  </h3>
+                </div>
+              </div>
+              <div className="row d-flex align-items-center">
+                <div className="col-8 col-md-9">
+                  <p className="Search-Result-Product-Description-Text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore.
+                  </p>
+                </div>
+                <div className="col-4 col-md-3 d-flex flex-column">
+                  <div className="Search-Result-Product-Discount-Price d-flex justify-content-end">
+                    $39.99
+                  </div>
+                  <div className="Search-Result-Product-Price d-flex justify-content-end">
+                    $29.99
+                  </div>
+                </div>
+              </div>
+              <div className="row  d-flex align-items-center py-1">
+                <div className="col-6 col-md-8">
+                  <button
+                    className="btn btn-no-border Search-Result-Add-to-Cart-Button"
+                    style={{ backgroundColor: "#F46B5B", color: "white" }}
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+                <div className="col-6 col-md-4 d-flex align-items-center justify-content-end">
+                  <div className="px-1 ">
+                    <span onClick={handleClick}>
+                      {isFilled ? <FaHeart color="red" /> : <FaRegHeart />}
+                    </span>
+                  </div>
+                  <div className="Search-Result-Wishlist-text">
+                    Add to Wishlist
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="row py-3">
+            <div className="col-12 col-md-4 ">
+              <Image
+                src="/pics_svgs/placeholder-search-results.svg"
+                alt="Description of the image"
+                width={376}
+                height={243}
+                className="Search-Result-img-fluid rounded d-flex justify-content-center"
+              />
+            </div>
+            <div className="col-12 col-md-8 Search-Results-Results-Responsive">
               <div className="row  ">
                 <div className="col-12 d-flex align-items-center">
                   <div className="Search-result-rating-col ">
@@ -159,110 +262,7 @@ const SearchResult = () => {
                 className="Search-Result-img-fluid rounded d-flex justify-content-center"
               />
             </div>
-            <div className="col-12 col-md-8 ">
-              <div className="row  ">
-                <div className="col-12 d-flex align-items-center">
-                  <div className="Search-result-rating-col ">
-                    <p>5.0</p>
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <FaStar
-                      color="#FFD687"
-                      size={24}
-                      style={{ paddingRight: "5px" }}
-                    />
-                    <FaStar
-                      color="#FFD687"
-                      size={24}
-                      style={{ paddingRight: "5px" }}
-                    />
-                    <FaStar
-                      color="#FFD687"
-                      size={24}
-                      style={{ paddingRight: "5px" }}
-                    />
-                    <FaStar
-                      color="#FFD687"
-                      size={24}
-                      style={{ paddingRight: "5px" }}
-                    />
-                    <FaStar
-                      color="#FFD687"
-                      size={24}
-                      style={{ paddingRight: "5px" }}
-                    />
-                  </div>
-                  <div>
-                    <p className="Search-Result-Product-Reviews-Text">
-                      Review (12)
-                    </p>
-                  </div>
-                  <div className="Search-Result-Product-Reviews-Text-border-left">
-                    <p className="Search-Result-Product-Reviews-Text">
-                    Sold 99
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12">
-                  <h3 className="Search-Result-Product-Heading-Text">
-                    USB Speaker Portable
-                  </h3>
-                </div>
-              </div>
-              <div className="row d-flex align-items-center">
-                <div className="col-8 col-md-9">
-                  <p className="Search-Result-Product-Description-Text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                </div>
-                <div className="col-4 col-md-3 d-flex flex-column">
-                  <div className="Search-Result-Product-Discount-Price d-flex justify-content-end">
-                    $39.99
-                  </div>
-                  <div className="Search-Result-Product-Price d-flex justify-content-end">
-                    $29.99
-                  </div>
-                </div>
-              </div>
-              <div className="row  d-flex align-items-center">
-                <div className="col-6 col-md-8">
-                  <button
-                    className="btn btn-no-border Search-Result-Add-to-Cart-Button"
-                    style={{ backgroundColor: "#F46B5B", color: "white" }}
-                  >
-                    Add to Cart
-                  </button>
-                </div>
-                <div className="col-6 col-md-4 d-flex align-items-center justify-content-end">
-                  <div className="px-1 ">
-                    <span onClick={handleClick}>
-                      {isFilled ? <FaHeart color="red" /> : <FaRegHeart />}
-                    </span>
-                  </div>
-                  <div className="Search-Result-Wishlist-text">
-                    Add to Wishlist
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="row py-3">
-            <div className="col-12 col-md-4 ">
-              <Image
-                src="/pics_svgs/placeholder-search-results.svg"
-                alt="Description of the image"
-                width={376}
-                height={243}
-                className="Search-Result-img-fluid rounded d-flex justify-content-center"
-              />
-            </div>
-            <div className="col-12 col-md-8 ">
+            <div className="col-12 col-md-8 Search-Results-Results-Responsive">
               <div className="row  ">
                 <div className="col-12 d-flex align-items-center">
                   <div className="Search-result-rating-col ">

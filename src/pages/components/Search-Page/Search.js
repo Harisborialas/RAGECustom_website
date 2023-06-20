@@ -53,7 +53,7 @@ const Search = () => {
           </div>
         </div>
         <div className="my-5">
-            <div className="row">
+            <div className="row Search-Responsive-Row">
                 <div className="col-12 col-md-4 col-lg-3" id="ProductCategory">
                         <AllCategories />
                     </div>

@@ -1963,7 +1963,7 @@ ________________________________________________________________________________
 
 .login-body {
   padding: 40px 20px;
-  background-color: #d0d0d2;
+  background-color: #e6e6e8;
 }
 
 .login-form-section-container {
@@ -1974,8 +1974,9 @@ ________________________________________________________________________________
   overflow: hidden;
   padding: 25px;
   background: #fffefe;
-  border: 1px solid #d0d0d2;
+  border: 1px solid #dededf;
   border-radius: 32px;
+  height: 800px;
 }
 
 .formContainer {
@@ -2196,6 +2197,9 @@ ________________________________________________________________________________
   background: #f46b5b;
   border-radius: 8px;
 }
+.mid-accunt-details-spacing{
+  padding-top: 20px;
+}
 
 /* ______________________________________________________________________________________________________________________________
 _____________________________________________My Account Page// My Profile Page___________________________________________________________________________
@@ -2246,6 +2250,7 @@ ________________________________________________________________________________
 }
 
 .Search-Dashboard-Image {
+  display: block !important;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -2890,6 +2895,10 @@ _______________________________________For Screen Max-Width 1200________________
   font-size: 16px;
   line-height: 27px;
 }
+.Add-To-Cart-Responsive-Image img{
+  width: 100%;
+  height: 100%;
+}
 }
 
 /* ______________________________________________________________________________________________________________________________
@@ -2939,6 +2948,22 @@ _______________________________________For Screen between Width 1200 to width 99
 }
 .tag-filter-section {
   padding: 6px;
+  font-size: 16px;
+}
+.login-with-section-heading {
+  font-size: 20px;
+  line-height: 29px;
+  color: #383838;
+}
+.formContainer h1 {
+  font-size: 38px;
+  line-height: 59px;
+  color: #383838;
+}
+.login-form-section-container {
+  padding: 0px;
+}
+.formContainer p {
   font-size: 16px;
 }
 }
@@ -3150,7 +3175,186 @@ _______________________________________For Screen Max-Width 991_________________
 .btn-submit-contactus-form {
   padding: 10px 20px;
 }
+.mid-accunt-details-spacing{
+  padding-top: 10px;
+}
+.Search-Heading-text h1 {
+  font-size: 38px;
+  line-height: 59px;
+}
+.Search-Last-text h2 {
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 30px;
+}
+.Search-Last-list-text p {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 12px;
+}
 
+}
+
+
+/* ______________________________________________________________________________________________________________________________
+___________________________________________Media queries _________________________________________________________________________
+_______________________________________For Screen between Width 991 to width 768________________________________________________________________ */
+
+@media screen and (min-width: 767.5px) and (max-width: 991.5px) {
+  .Account-Details-Heading {
+    font-size: 26px;
+    line-height: 40px;
+}
+.Account-Details-Paragraph {
+  font-size: 16px;
+  line-height: 27px;
+  color: #a7a7a7;
+}
+.Account-Details-Nav-menu a {
+  font-size: 14px;
+  line-height: 20px;
+}
+.input-field-lable-contactus {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 15px 0px;
+}
+.custom-input-for-contactus {
+  padding: 6px 10px;
+  font-size: 15px;
+}
+.MyProfile-Side-Bar {
+  padding: 0px 0px;
+}
+.btn-save-myaccountdetails {
+  font-size: 16px;
+  padding: 6px 40px;
+}
+.Account-Details-form-section-container {
+  padding: 35px;
+}
+.Search-result-rating-col p {
+  font-size: 16px;
+  line-height: 27px;
+  color: #383838;
+  margin: 0;
+  padding-right: 5px;
+  margin-top: 0.15rem;
+}
+.Search-Result-Product-Reviews-Text {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 27px;
+  padding: 0px 5px;
+}
+.Search-Result-Product-Description-Text {
+  font-size: 14px;
+  line-height: 18px;
+}
+.Search-Result-Product-Discount-Price {
+  font-size: 18px;
+  line-height: 26px;
+}
+.Search-Result-Product-Price {
+  font-size: 24px;
+  line-height: 44px;
+}
+.Search-Result-Wishlist-text {
+  font-size: 14px;
+}
+.Search-Result-Add-to-Cart-Button {
+  font-size: 14px;
+  line-height: 27px;
+  padding: 6px 10px;
+  
+}
+.items-product-name {
+  font-size: 16px;
+  line-height: 30px;
+  color: #383838;
+}
+.btn-mid-qty {
+  font-size: 18px;
+  line-height: 27px;
+  color: #f46b5b;
+  padding: 10px 10px;
+}
+
+.minusButton {
+  font-size: 18px;
+  padding: 5px 15px 10px 15px;
+}
+
+.plusButton {
+  font-size: 18px;
+  padding: 4px 12px 8px 12px;
+}
+.items-product-price {
+  font-size: 20px;
+  line-height: 30px;
+}
+.Add-To-Cart-Price-responsive{
+  padding: 10px !important;
+}
+.Add-To-Cart-Price-responsive img{
+  width: 18px;
+  height: 18px;
+}
+.Coupon-container-paragraph {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.Add-To-Cart-Line-Img img{
+  width: 100%;
+}
+.btn-summary-shopping h4 {
+  font-size: 16px;
+  line-height: 27px;
+}
+.btn-billing-info-checkout {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 12px;
+}
+.CheckOut-BillingInfo-container{
+  padding: 8px;
+}
+.checkout-billing-order-details-name {
+  font-size: 14px;
+  line-height: 17px;
+  color: #383838;
+}
+.checkout-billing-order-details-price {
+  font-size: 14px;
+  line-height: 17px;
+}
+.checkout-billing-order-details-qty {
+  font-size: 14px;
+  line-height: 17px;
+}
+.checkout-billing-order-details-total-amount {
+  font-size: 20px;
+  line-height: 36px;
+}
+.checkout-billing-order-details-total-price {
+  font-size: 20px;
+  line-height: 36px;
+}
+.checkout-billing-order-details-payment h1 {
+  font-size: 20px;
+  line-height: 36px;
+}
+.button-billing-info {
+  font-size: 12px;
+  line-height: 17px;
+  padding: 5px;
+  margin: 5px;
+}
+.checkout-billing-order-details-payment-method{
+  padding: 5px 15px !important;
+}
 }
 
 /* ______________________________________________________________________________________________________________________________
@@ -3274,6 +3478,66 @@ _______________________________________For Screen Max-Width 768_________________
 .comment-section-user-comment {
   font-size: 14px;
   line-height: 20px;
+}
+.Login-Forget-Password-Section{
+  padding-top: 1rem !important;
+  justify-content: start !important;
+}
+.login-forget-section {
+  padding: 20px 20px;
+  width: 100%;
+}
+.mid-accunt-details-spacing{
+  padding-top: 00px;
+}
+.Search-Heading-text h1 {
+  font-size: 28px;
+  line-height: 59px;
+}
+.Search-page-form-control::placeholder {
+  font-size: 15px;
+  line-height: 17px;
+  padding-left: 10px;
+}
+.Search-Dashboard-Image {
+  display: none !important; /* Hide the image */
+}
+.Search-page-form_searchbar {
+  width: 80%;
+}
+.Search-Last-text h2 {
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 30px;
+}
+.Search-Last-list-text p {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 10px;
+}
+.Add-To-Cart-Line-Img img {
+  width: 80%;
+}
+.Add-To-Cart-Summary-Col{
+  margin: 0 !important;
+}
+.Add-To-Cart-Main-Row-1{
+  padding: 20px 0px;
+}
+.items-product-name {
+  font-size: 22px;
+  line-height: 32px;
+}
+.Add-To-Cart-Price-responsive img {
+  width: 18px;
+  height: 18px;
+}
+.items-product-price {
+  font-size: 22px;
+  line-height: 36px;
+}
+.Add-To-Cart-Price-responsive{
+  padding: 10px !important;
 }
 }
 /* ______________________________________________________________________________________________________________________________
@@ -3433,6 +3697,114 @@ _______________________________________For Screen Max-Width 576.5_______________
   padding: 10px 30px !important;
 
 }
+.formContainer p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.formContainer .login-forget-section-text {
+  font-size: 16px;
+  color: #f46b5b;
+  margin: 0;
+}
+.login-with-section-heading {
+  font-size: 20px;
+  line-height: 29px;
+  color: #383838;
+}
+.formContainer {
+  padding: 0px;
+}
+.login-form-section-container {
+  padding: 10px 25px;
+  height: 700px;
+}
+.Account-Details-form-section-container {
+  padding: 30px 20px;
+}
+.Account-Details-Nav-menu nav {
+  padding: 10px 0px 20px 0px;
+}
+.Search-Responsive-Row{
+  padding: 30px;
+}
+.Search-Results-Mobile-Responsive{
+  padding: 10px 0px;
+}
+.Search-Results-SortBy{
+  display: flex;
+  justify-content: center !important;
+}
+
+.Search-result-rating-col p {
+  font-size: 16px;
+  line-height: 27px;
+  color: #383838;
+  margin: 0;
+  padding-right: 5px;
+  margin-top: 0.15rem;
+}
+.Search-Result-Product-Reviews-Text {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 27px;
+  padding: 0px 5px;
+}
+.Search-Result-Product-Description-Text {
+  font-size: 14px;
+  line-height: 18px;
+}
+.Search-Result-Product-Discount-Price {
+  font-size: 18px;
+  line-height: 26px;
+}
+.Search-Result-Product-Price {
+  font-size: 24px;
+  line-height: 44px;
+}
+.Search-Result-Wishlist-text {
+  font-size: 14px;
+}
+.Search-Result-Add-to-Cart-Button {
+  font-size: 14px;
+  line-height: 27px;
+  padding: 6px 10px;
+  
+}
+.Search-Results-Results-Responsive{
+  padding: 10px 10px;
+}
+.Add-To-Cart-Main-Row-1 {
+  padding: 20px 30px;
+}
+.items-product-name {
+  font-size: 16px;
+  line-height: 22px;
+}
+.Add-To-Cart-Price-responsive {
+  padding: 5px !important;
+}
+.items-product-price {
+  font-size: 16px;
+  line-height: 26px;
+}
+.Add-To-Cart-Price-responsive img {
+  width: 16px;
+  height: 16px;
+}
+.minusButton {
+  font-size: 20px;
+  padding: 4px 16px 8px 16px;
+}
+.plusButton {
+  font-size: 18px;
+  padding: 7px 14px 8px 14px;
+}
+.btn-mid-qty {
+  font-size: 18px;
+  padding: 10px 10px;
+}
 
 }
 
@@ -3488,6 +3860,69 @@ _______________________________________For Screen Max-Width 400.5_______________
     font-size: 16px;
     line-height: 36px;
   }
+  .Account-Details-Heading {
+    font-size: 26px;
+    line-height: 34px;
+}
+.Account-Details-Nav-menu a {
+  font-size: 15px;
+  line-height: 17px;
+  color: #383838;
+}
+.MyProfile-Side-Bar {
+  padding: 0px 40px;
+}
+.Account-Details-Paragraph {
+  font-size: 14px;
+  line-height: 27px;
+  color: #a7a7a7;
+  margin: 0;
+}
+.input-field-lable-contactus {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 10px 0px;
+}
+.custom-input-for-contactus {
+  padding: 5px 10px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.Add-To-Cart-Main-Row-1 {
+  padding: 20px 30px;
+}
+.items-product-name {
+  font-size: 14px;
+  line-height: 18px;
+}
+.Add-To-Cart-Price-responsive {
+  padding: 5px !important;
+}
+.items-product-price {
+  font-size: 14px;
+  line-height: 26px;
+}
+.Add-To-Cart-Price-responsive img {
+  width: 12px;
+  height: 12px;
+}
+/* .minusButton {
+  font-size: 18px;
+  padding: 0px 8px 2px 8px;
+}
+.plusButton {
+  font-size: 16px;
+  padding: 3px 8px 6px 8px;
+} */
+.btn-mid-qty {
+  font-size: 16px;
+  padding: 10px 6px;
+}
+.QuantityCounter-Div-Set{
+  margin-top: 3px !important;
+}
+
 }
 
 /* ______________________________________________________________________________________________________________________________
@@ -3581,4 +4016,26 @@ _______________________________________For Screen Max-Width 350_________________
   width: 40px;
   height: 40px;
 } 
+.Search-Result-Product-Reviews-Text {
+  margin: 0;
+  font-size: 10px;
+  line-height: 17px;
+  padding: 0px 2px;
+}
+.Search-Result-Product-Description-Text {
+  font-size: 11px;
+  line-height: 15px;
+}
+.Search-Result-Wishlist-text {
+  font-size: 12px;
+}
+.Search-Result-Add-to-Cart-Button {
+  font-size: 12px;
+  line-height: 27px;
+  padding: 4px 8px;
+}
+.Search-Heading-text h1 {
+  font-size: 26px;
+  line-height: 39px;
+}
 }

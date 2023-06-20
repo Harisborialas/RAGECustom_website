@@ -19,10 +19,10 @@ const LoginForm = () => {
   return (
     <>
       <Navbar />
-      <div className="login-body">
+      <div className="login-body mt-3">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-lg-6 py-4">
               <div className="login-form-section-container">
                 <div className="formContainer">
                   <h1>Login</h1>
@@ -90,7 +90,7 @@ const LoginForm = () => {
 
                   <div>
                     <div className="row login-forget-section d-flex align-items-center">
-                      <div className="col-12 col-md-6">
+                      <div className="col-12 col-md-6 p-0">
                         <div className="form-check form-check-inline">
                           <input
                             className="form-check-input checkbox-lg me-2"
@@ -105,7 +105,7 @@ const LoginForm = () => {
                           </label>
                         </div>
                       </div>
-                      <div className="col-6 col-md-6 d-flex justify-content-end align-items-center">
+                      <div className="col-12 col-md-6 d-flex justify-content-end align-items-center p-0 Login-Forget-Password-Section">
                         <p className="login-forget-section-text">
                           Forgot password?
                         </p>
@@ -163,7 +163,7 @@ const LoginForm = () => {
               </div>
             </div>
 
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-lg-6 py-4">
               <div className="login-form-section-container">
                 <div className="formContainer">
                   <h1>Create Account</h1>
