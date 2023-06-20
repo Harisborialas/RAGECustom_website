@@ -38,6 +38,7 @@ const ProductList = () => {
     if (redirect) {
       // Navigate("/");
     }
+    alert("Product added succesfully")
   };
   return (
     <>
