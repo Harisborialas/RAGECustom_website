@@ -37,7 +37,6 @@ const ProductList = () => {
     }
     if (redirect) {
     }
-    alert("Product added succesfully")
   };
   return (
     <>
